@@ -1,0 +1,7 @@
+﻿Producto,Nivel,Área,Rendimiento,Precio,n,IC95 Área,IC95 Rendimiento,IC95 Precio
+Café,Departamento,-0.021,0.142,0.879,10,,,
+Café,Municipios (panel),0.345,0.524,0.131,424,"[0.19, 0.53]","[0.34, 0.68]","[0.09, 0.20]"
+Papa,Departamento,-0.073,0.178,0.896,8,,,
+Papa,Municipios (panel),0.496,0.295,0.209,279,"[0.40, 0.61]","[0.18, 0.39]","[0.15, 0.28]"
+Papa criolla,Departamento,0.226,-0.068,0.842,8,,,
+Papa criolla,Municipios (panel),0.532,0.095,0.372,132,"[0.39, 0.62]","[0.06, 0.14]","[0.28, 0.50]"

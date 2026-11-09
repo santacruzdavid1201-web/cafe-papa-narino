@@ -1,0 +1,17 @@
+﻿Producto,Especificación,beta,ee,p,N
+Café,"Base: área cosechada, Driscoll-Kraay",-0.398,0.073,0.0,463
+Café,Producción,-0.825,0.162,0.0,463
+Café,Área sembrada,-0.139,0.05,0.006,463
+Café,Precio rezagado 2 años,-0.159,0.102,0.119,458
+Café,Precio alternativo (café: externo; papa: Ipiales),-0.29,0.083,0.0,468
+Café,Precio nominal,-0.091,0.015,0.0,425
+Café,Sin 2020–2021,-0.402,0.083,0.0,383
+Café,Errores agrupados por municipio,-0.398,0.112,0.0,463
+Papa,"Base: área cosechada, Driscoll-Kraay",-0.107,0.087,0.223,314
+Papa,Producción,-0.204,0.161,0.207,314
+Papa,Área sembrada,0.002,0.085,0.98,314
+Papa,Precio rezagado 2 años,0.256,0.106,0.016,273
+Papa,Precio alternativo (café: externo; papa: Ipiales),-0.095,0.077,0.22,314
+Papa,Precio nominal,-0.113,0.07,0.11,317
+Papa,Sin 2020–2021,-0.181,0.115,0.118,243
+Papa,Errores agrupados por municipio,-0.107,0.082,0.196,314

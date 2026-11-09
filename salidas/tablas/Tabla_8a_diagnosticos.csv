@@ -1,0 +1,9 @@
+﻿Modelo,Prueba,Estadístico,Valor p,Lectura
+Café · área,F de efectos fijos,391.418,0.0,H0: sin efectos de municipio
+Café · área,Pesaran CD,5.414,0.0,H0: independencia transversal; correlación media 0.06
+Café · área,Wooldridge AR(1),83.247,0.0,H0: sin autocorrelación; coef. -0.10 vs −0.5
+Café · área,Wald modificado,33996.712,0.0,H0: varianza homogénea entre municipios
+Papa · área,F de efectos fijos,138.7,0.0,H0: sin efectos de municipio
+Papa · área,Pesaran CD,-0.276,0.783,H0: independencia transversal; correlación media -0.00
+Papa · área,Wooldridge AR(1),2.508,0.122,H0: sin autocorrelación; coef. -0.34 vs −0.5
+Papa · área,Wald modificado,45669.848,0.0,H0: varianza homogénea entre municipios

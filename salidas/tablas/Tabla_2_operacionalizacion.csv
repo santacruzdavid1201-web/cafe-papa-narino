@@ -1,0 +1,9 @@
+﻿Variable,Fuente,Unidad,Transformación,Cobertura
+Producción,EVA (MinAgricultura–UPRA),t (café: pergamino seco),Suma de semestres; café verde × 1.25 hasta 2018,2012–2023 · 54 mpios.
+Área cosechada,EVA,ha,Suma de semestres,2012–2023 · 54 mpios.
+Rendimiento,EVA,t/ha,Producción / área cosechada,2012–2023 · 54 mpios.
+Precio del café,"FNC, precio interno de referencia",$/kg CPS,Promedio anual de la serie mensual ÷ 125 kg,2012–2023 · Nariño
+Precio de la papa,"DANE-SIPSA, Pasto (El Potrerillo)",$/kg mayorista,Promedio de Capiro y Única; criolla aparte,2013–2023 · Nariño
+Precio real,Precio nominal y deflactor del VA agropecuario,$ de 2015/kg,Nominal / deflactor implícito × 100,2012–2023
+Ingreso bruto,Producción × precio,Millones de $ de 2015,ln y Δln × 100,2012–2023 · 54 mpios.
+VA agropecuario,"DANE, cuentas departamentales base 2015",Miles de millones de $,Corriente y volumen encadenado,2005–2025pr · Nariño
