@@ -18,3 +18,12 @@ Los archivos de `raw/` son copias de respaldo de las fuentes oficiales, descarga
 * **Cambio metodológico EVA 2019:** las variaciones de cantidades 2018→2019 se excluyen de la descomposición y los modelos incluyen una dummy D2019.
 * **Precio de la papa:** promedio de las variedades Capiro y Única en Pasto (reportadas sin interrupción 2013–2024); la papa criolla usa «papa criolla sucia». El SIPSA no tiene serie histórica para 2012.
 * **Precios reales:** deflactor implícito del valor agregado agropecuario de Nariño (2015 = 100).
+
+## Bases nacionales para el observatorio AGROCOL (`nacional/`)
+
+Copias completas, **sin filtrar**, de las mismas fuentes oficiales, descargadas el 9 de noviembre de 2026. Las lee en línea el notebook `AGROCOL_Observatorio_Datos.ipynb`, que las resume en `observatorio.json`, el archivo que carga la página web del observatorio.
+
+| Archivo en `nacional/` | Contenido | Entidad | URL oficial | Filtro |
+|---|---|---|---|---|
+| `sipsa_2019.xlsx` … `sipsa_2024.xlsx` | Precios mayoristas mensuales ($/kg) de todos los productos y mercados del país, un anexo por año | DANE – SIPSA, series históricas de precios mayoristas | Las mismas de `sipsa_papa_pasto_ipiales.csv` (tabla de arriba) | Ninguno (anexo original, renombrado) |
+| `eva_2019_2025.csv` | Evaluaciones Agropecuarias Municipales de todo el país: área sembrada y cosechada, producción y rendimiento por municipio, cultivo y periodo, 2019–2025 | MinAgricultura – UPRA (datos.gov.co, conjunto uejq-wxrr) | https://www.datos.gov.co/api/views/uejq-wxrr/rows.csv?accessType=DOWNLOAD | Ninguno |

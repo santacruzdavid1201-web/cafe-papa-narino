@@ -28,7 +28,8 @@ jupyter notebook cafe_papa_narino.ipynb
 ├── requirements.txt
 ├── datos/
 │   ├── FUENTES.md           # URL oficial, filtro aplicado y fecha de consulta de cada archivo
-│   └── raw/                 # copias de respaldo de las fuentes oficiales (filtradas a Nariño)
+│   ├── raw/                 # copias de respaldo de las fuentes oficiales (filtradas a Nariño)
+│   └── nacional/            # SIPSA y EVA completos (todo el país) para el observatorio AGROCOL
 └── salidas/
     ├── figuras/             # Figura_1 … Figura_5
     ├── tablas/              # Tabla_2, 5, 6, 6b, 7, 7b, 8a, 8b (Excel y CSV)
