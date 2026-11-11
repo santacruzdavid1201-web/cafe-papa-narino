@@ -28,3 +28,17 @@ Copias completas, **sin filtrar**, de las mismas fuentes oficiales, descargadas 
 | `sipsa_2019.xlsx` … `sipsa_2024.xlsx` | Precios mayoristas mensuales ($/kg) de todos los productos y mercados del país, un anexo por año | DANE – SIPSA, series históricas de precios mayoristas | Las mismas de `sipsa_papa_pasto_ipiales.csv` (tabla de arriba) | Ninguno (anexo original, renombrado) |
 | `eva_2019_2025.csv` | Evaluaciones Agropecuarias Municipales de todo el país: área sembrada y cosechada, producción y rendimiento por municipio, cultivo y periodo, 2019–2025 | MinAgricultura – UPRA (datos.gov.co, conjunto uejq-wxrr) | https://www.datos.gov.co/api/views/uejq-wxrr/rows.csv?accessType=DOWNLOAD | Ninguno |
 | `observatorio.json` | Resumen que lee la web: precio medio, número de reportes, mínimo y máximo por producto, mes y departamento; producción y áreas EVA por departamento, año y cultivo | Generado por `AGROCOL_Observatorio_Datos.ipynb` con los archivos anteriores | — | Agregado (reproduce exactamente los totales de las bases) |
+
+## Indicadores departamentales para el sistema RAG + multiagente (`departamental/`)
+
+Archivos oficiales del DANE, descargados el 10 de noviembre de 2026 y sin modificar. Los lee en línea el notebook `sistema_rag_multiagente_colombia.ipynb`, que también usa `raw/pib_actividad.xlsx` para el PIB departamental.
+
+| Archivo en `departamental/` | Contenido | Entidad | URL oficial |
+|---|---|---|---|
+| `anex-PMDepartamental-2025.xlsx` | Pobreza monetaria y extrema, Gini, ingreso per cápita y población, 23 departamentos y Bogotá, 2021–2025 | DANE – Pobreza monetaria (GEIH) | https://www.dane.gov.co/files/operaciones/PM/anex-PMDepartamental-2025.xlsx |
+| `anex-GEIHDepartamentos-2025.xls` | Mercado laboral (TGP, ocupación, desocupación), 23 departamentos, 2007–2025 | DANE – GEIH | https://www.dane.gov.co/files/operaciones/GEIH/anex-GEIHDepartamentos-2025.xls |
+| `cp-PMDepartamental-2025.pdf` | Comunicado de prensa de pobreza monetaria departamental 2025 (base de conocimiento del RAG) | DANE | https://www.dane.gov.co/files/operaciones/PM/cp-PMDepartamental-2025.pdf |
+| `bol-GEIHDepartamentos-2025.pdf` | Boletín técnico de mercado laboral por departamentos 2025 (RAG) | DANE | https://www.dane.gov.co/files/operaciones/GEIH/bol-GEIHDepartamentos-2025.pdf |
+| `bol-PIBDep-2025pr.pdf` | Boletín técnico del PIB por departamento 2025pr (RAG) | DANE | https://www.dane.gov.co/files/operaciones/PIB/bol-PIBDep-2025pr.pdf |
+| `colombia_departamentos.geojson` | Límites departamentales del MGN 2018, con nombres normalizados (matriz de vecinos y mapa) | DANE, vía caticoa3/colombia_mapa | https://raw.githubusercontent.com/caticoa3/colombia_mapa/master/co_2018_MGN_DPTO_POLITICO.geojson |
+| `rag_colombia.json` | Panel, resultados de los modelos, fragmentos del RAG e informe de los agentes; lo lee la web | Generado por el notebook | — |
