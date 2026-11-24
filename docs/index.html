@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Observatorio · Café, papa y valor agregado agropecuario en Nariño</title>
+<link rel="stylesheet" href="estilo.css">
+<script src="plotly.min.js"></script>
+<script src="mapa.js"></script>
+</head>
+<body>
+<header><div class="envoltura">
+  <div class="etiqueta">Observatorio estadístico · Universidad de Nariño</div>
+  <h1>¿Cantidades o precios? Café, papa y valor agregado agropecuario en Nariño</h1>
+  <p>Producción municipal (EVA), precios mayoristas (SIPSA-DANE) y precio interno del café (FNC), armonizados por el notebook del repositorio, con los resultados de los cuatro métodos del artículo y el estado de las fuentes oficiales.</p>
+</div></header>
+<nav><div class="envoltura">
+  <a href="#resumen">Resumen</a><a href="#municipios">Municipios</a><a href="#mapa">Mapa</a><a href="#precios">Precios</a><a href="#descomposicion">Descomposición</a><a href="#metodos">Métodos</a><a href="#fuentes">Fuentes</a><a href="#descargas">Descargas</a>
+</div></nav>
+<main>
+<section id="resumen">
+  <h2>Resultados principales</h2>
+  <p class="nota">Cifras calculadas por el notebook; se actualizan cuando el rastreador detecta nuevas versiones de las fuentes.</p>
+  <div class="kpis" id="kpis"></div>
+</section>
+
+<section id="municipios">
+  <h2>Producción e ingreso por municipio</h2>
+  <p class="nota">Seleccione cultivo, variable y hasta seis municipios. La línea gris gruesa es el total (o promedio, en el caso del rendimiento y el precio) departamental. La EVA cambió de metodología en 2019 y en 2018 solo publicó el primer semestre de la papa.</p>
+  <div class="tarjeta">
+    <div class="controles">
+      <label>Cultivo<select id="cultivo"></select></label>
+      <label>Variable<select id="variable"></select></label>
+      <label>Municipios<select id="munis" multiple></select></label>
+    </div>
+    <div id="g_munis" class="grafico"></div>
+  </div>
+</section>
+
+<section id="mapa">
+  <h2>Mapa municipal</h2>
+  <div class="tarjeta">
+    <div class="controles">
+      <label>Cultivo<select id="cultivo_mapa"></select></label>
+      <label>Variable<select id="variable_mapa"></select></label>
+      <label>Año <span id="anio_txt"></span><input type="range" id="anio" min="2012" max="2023" value="2023"></label>
+    </div>
+    <div id="g_mapa" class="grafico" style="min-height:560px"></div>
+  </div>
+</section>
+
+<section id="precios">
+  <h2>Precios mensuales</h2>
+  <p class="nota">Precio mayorista de la papa en Pasto (El Potrerillo) e Ipiales (SIPSA-DANE) y precio interno de referencia del café (FNC, $/kg de pergamino seco), en pesos corrientes. El método 4 del artículo estima la transmisión entre las dos plazas.</p>
+  <div class="tarjeta">
+    <div class="controles"><label>Series<select id="series_p" multiple></select></label></div>
+    <div id="g_precios" class="grafico"></div>
+  </div>
+</section>
+
+<section id="descomposicion">
+  <h2>¿Cantidades o precios? Descomposición del ingreso bruto</h2>
+  <p class="nota">Participación del área, el rendimiento y el precio en la varianza del ingreso bruto real (método 1). Las tres suman 1. A escala departamental domina el precio; en los municipios, las cantidades.</p>
+  <div class="rejilla">
+    <div class="tarjeta"><div id="g_desc" class="grafico"></div></div>
+    <div class="tarjeta"><div id="g_acum" class="grafico"></div></div>
+  </div>
+</section>
+
+<section id="metodos">
+  <h2>Confrontación de métodos</h2>
+  <p class="nota">Elasticidad del área y de la producción al precio real del año anterior: panel de efectos fijos (método 2) y paneles espaciales SAR y SEM (método 3). Barras: intervalo de confianza al 95 %.</p>
+  <div class="tarjeta"><div id="g_metodos" class="grafico" style="min-height:460px"></div></div>
+  <h2 style="margin-top:1.4rem;font-size:1.15rem">Transmisión de precios entre Pasto e Ipiales (método 4)</h2>
+  <div class="tarjeta" style="overflow-x:auto"><table id="t_trans"></table></div>
+</section>
+
+<section id="fuentes">
+  <h2>Rastreador de fuentes oficiales</h2>
+  <p class="nota">Revisión semanal automática (GitHub Actions). «No accesible» indica que el servidor oficial rechaza conexiones desde la nube; en ese caso el notebook usa la copia guardada en <code>datos/raw/</code>.</p>
+  <div class="tarjeta" style="overflow-x:auto"><table id="t_fuentes"><tr><td>El estado de las fuentes aparecerá después de la primera ejecución del rastreador.</td></tr></table></div>
+</section>
+
+<section id="descargas">
+  <h2>Descargas</h2>
+  <ul id="descargas_lista"></ul>
+</section>
+</main>
+<footer>
+  Proyecto de Seminario de Investigación Regional II, Programa de Economía, Universidad de Nariño. Autores: David Esteban Santacruz Palacios y Flavieth Vallejo Benavides.
+  Código y datos: <a href="https://github.com/santacruzdavid1201-web/cafe-papa-narino">github.com/santacruzdavid1201-web/cafe-papa-narino</a>. Fuentes: MinAgricultura–UPRA (EVA), DANE (SIPSA y cuentas departamentales), FNC. <span id="generado"></span>
+</footer>
+<script>
+const VAR = {area_cos: "Área cosechada (ha)", prod: "Producción (t)", rend: "Rendimiento (t/ha)", ib_real: "Ingreso bruto real (millones de $ de 2015)", p_real: "Precio real ($ de 2015/kg)"};
+const CUL = {"Café": "#8a5a2b", "Papa": "#2a78d6", "Papa criolla": "#eb6834"};
+const PALETA = ["#2a78d6", "#1b9e77", "#7b3294", "#eb6834", "#a6761d", "#e7298a"];
+const fmt = (x, d = 1) => (x === null || x === undefined || isNaN(x)) ? "—" : Number(x).toLocaleString("es-CO", {minimumFractionDigits: d, maximumFractionDigits: d});
+const LAY = () => ({margin: {l: 60, r: 15, t: 35, b: 45}, paper_bgcolor: "#fff", plot_bgcolor: "#fff", font: {family: "Source Sans 3, Segoe UI, sans-serif", size: 13},
+             xaxis: {gridcolor: "#eee"}, yaxis: {gridcolor: "#eee"}, legend: {orientation: "h", y: -0.18}});
+const CFG = {responsive: true, displaylogo: false};
+let D, GEO, NOMBRE = {};
+
+async function iniciar() {
+  D = await (await fetch("datos.json")).json();
+  GEO = await (await fetch("mapa.geojson")).json();
+  D.municipios.forEach(m => NOMBRE[m.cod_mpio] = m.municipio);
+  document.getElementById("generado").textContent = "Datos generados: " + D.meta.generado + ".";
+  kpis(); controles(); municipios(); mapa(); precios(); descomposicion(); metodos(); descargas();
+  try { fuentes(await (await fetch("estado_fuentes.json")).json()); } catch (e) {}
+}
+
+function kpis() {
+  const K = D.clave, pc = (x) => fmt(100 * x, 0) + " %";
+  const items = [
+    [pc(K.s_precio_cafe_dep) + " · " + pc(K.s_precio_papa_dep), "Peso del precio en la varianza del ingreso departamental", "Café · papa"],
+    [pc(K.s_precio_cafe_mun) + " · " + pc(K.s_precio_papa_mun), "Peso del precio en la varianza del ingreso municipal", "Café · papa"],
+    [fmt(K.beta_cafe_area, 2), "Elasticidad del área de café al precio (t−1)", "Panel EF, p = " + fmt(K.p_cafe_area, 3)],
+    [fmt(K.beta_papa_area, 2), "Elasticidad del área de papa al precio (t−1)", "No significativa (p = " + fmt(K.p_papa_area, 2) + ")"],
+    [fmt(K.sp_cafe_area_rho, 2), "Dependencia espacial del área de café (ρ)", "SAR con efectos fijos de municipio"],
+    [fmt(K.tr_papa_pasto_theta, 2), "Transmisión de largo plazo Ipiales → Pasto (papa)", "Vida media del desvío: " + fmt(K.tr_papa_pasto_vm, 2) + " meses"],
+    [fmt(K.peso_medio, 0) + " %", "Ingreso bruto de café y papa / VA agropecuario", "Promedio; rango " + fmt(K.peso_min, 0) + "–" + fmt(K.peso_max, 0) + " %"]
+  ];
+  document.getElementById("kpis").innerHTML = items.map(([v, t, d]) => `<div class="kpi"><div class="v">${v}</div><div class="t">${t}</div><div class="d">${d}</div></div>`).join("");
+}
+
+function controles() {
+  for (const id of ["cultivo", "cultivo_mapa"]) { const s = document.getElementById(id); Object.keys(D.panel).forEach(c => s.add(new Option(c, c))); }
+  for (const id of ["variable", "variable_mapa"]) { const s = document.getElementById(id); Object.entries(VAR).forEach(([k, n]) => { if (id === "variable_mapa" && k === "p_real") return; s.add(new Option(n, k)); }); }
+  document.getElementById("variable").value = "prod"; document.getElementById("variable_mapa").value = "prod";
+  llenarMunis();
+  document.getElementById("cultivo").onchange = () => { llenarMunis(); municipios(); };
+  document.getElementById("variable").onchange = municipios;
+  document.getElementById("munis").onchange = municipios;
+  ["cultivo_mapa", "variable_mapa", "anio"].forEach(id => document.getElementById(id).oninput = mapa);
+  const sp = document.getElementById("series_p");
+  Object.keys(D.precios).forEach(s => { const o = new Option(s, s); o.selected = s.startsWith("Papa ·"); sp.add(o); });
+  sp.onchange = precios;
+}
+
+function llenarMunis() {
+  const c = document.getElementById("cultivo").value, s = document.getElementById("munis");
+  s.innerHTML = "";
+  const P = D.panel[c];
+  const orden = Object.keys(P).map(m => [m, (P[m].prod || []).reduce((a, b) => a + (b || 0), 0)]).sort((a, b) => b[1] - a[1]);
+  orden.forEach(([m], i) => { const o = new Option(NOMBRE[m] || m, m); o.selected = i < 4; s.add(o); });
+}
+
+function municipios() {
+  const c = document.getElementById("cultivo").value, v = document.getElementById("variable").value;
+  const sel = [...document.getElementById("munis").selectedOptions].map(o => o.value).slice(0, 6);
+  const tr = sel.map((m, i) => ({x: D.panel[c][m].anio, y: D.panel[c][m][v], name: NOMBRE[m], mode: "lines+markers", line: {color: PALETA[i % 6], width: 2}, marker: {size: 5}}));
+  const dep = D.departamental[c];
+  if (dep && v !== "p_real") tr.push({x: dep.anio, y: dep[v], name: "Nariño (departamento)", yaxis: v === "rend" ? "y" : "y2", line: {color: "#999", width: 4}, opacity: 0.6});
+  const lay = {...LAY(), title: {text: c + " · " + VAR[v], font: {size: 15}}, hovermode: "x unified",
+    shapes: [{type: "line", x0: 2018.5, x1: 2018.5, yref: "paper", y0: 0, y1: 1, line: {dash: "dot", color: "#999"}}]};
+  if (v !== "rend" && v !== "p_real") lay.yaxis2 = {overlaying: "y", side: "right", showgrid: false, title: "Departamento"};
+  Plotly.react("g_munis", tr, lay, CFG);
+}
+
+function mapa() {
+  const c = document.getElementById("cultivo_mapa").value, v = document.getElementById("variable_mapa").value, a = +document.getElementById("anio").value;
+  document.getElementById("anio_txt").textContent = a;
+  const valores = {}, nombres = {};
+  for (const f of GEO.features) {
+    const id = f.properties.MPIO_CCNCT, s = D.panel[c][id];
+    nombres[id] = NOMBRE[id] || f.properties.MPIO_CNMBR;
+    const i = s ? s.anio.indexOf(a) : -1;
+    valores[id] = i >= 0 ? s[v][i] : null;
+  }
+  dibujarMapa("g_mapa", GEO, "MPIO_CCNCT", valores, nombres, c + " · " + VAR[v] + " · " + a, [[0, "#f6efe6"], [0.5, "#d19a5b"], [1, "#5c3311"]], 1);
+}
+
+function precios() {
+  const sel = [...document.getElementById("series_p").selectedOptions].map(o => o.value);
+  const tr = sel.map((s, i) => ({x: D.precios[s].fecha, y: D.precios[s].precio, name: s, line: {color: PALETA[i % 6], width: 2}, yaxis: s.startsWith("Café") ? "y2" : "y"}));
+  Plotly.react("g_precios", tr, {...LAY(), title: {text: "Precios mensuales ($/kg corrientes)", font: {size: 15}}, hovermode: "x unified",
+    yaxis: {title: "Papa ($/kg)", gridcolor: "#eee"}, yaxis2: {title: "Café ($/kg)", overlaying: "y", side: "right", showgrid: false}}, CFG);
+}
+
+function descomposicion() {
+  const R = D.descomposicion, et = R.map(r => r.Producto + "<br>" + (r.Nivel.startsWith("Dep") ? "departamento" : "municipios"));
+  const comp = [["Área", "#9ec5f0"], ["Rendimiento", "#2a78d6"], ["Precio", "#eb6834"]];
+  Plotly.react("g_desc", comp.map(([c, col]) => ({type: "bar", x: et, y: R.map(r => r[c]), name: c, marker: {color: col}})),
+    {...LAY(), barmode: "relative", title: {text: "Participación en la varianza del ingreso bruto", font: {size: 15}}}, CFG);
+  const A = D.acumulada, ea = A.map(r => r.Producto + "<br>" + r.Tramo);
+  const tr = comp.map(([c, col]) => ({type: "bar", x: ea, y: A.map(r => r[c]), name: c, marker: {color: col}}));
+  tr.push({type: "scatter", mode: "markers", x: ea, y: A.map(r => r.Total), name: "Total", marker: {symbol: "diamond", size: 11, color: "#1d1d1b"}});
+  Plotly.react("g_acum", tr, {...LAY(), barmode: "relative", title: {text: "Cambio acumulado por subperiodo (100·Δln)", font: {size: 15}}}, CFG);
+}
+
+function metodos() {
+  const M = D.metodos, col = {"Panel EF (Driscoll-Kraay)": "#2a78d6", "SAR, efecto directo β": "#7b3294", "SEM = efecto total SAR": "#1b9e77", "SEM, W k=4 vecinos": "#eb6834"};
+  const metodos = Object.keys(col), ecs = [...new Set(M.map(r => r["Ecuación"]))];
+  const tr = metodos.map((m, j) => {
+    const F = M.filter(r => r["Método"] === m);
+    return {x: F.map(r => r.coef), y: F.map(r => ecs.indexOf(r["Ecuación"]) + (j - 1.5) * 0.17), name: m, mode: "markers", marker: {size: 9, color: col[m]},
+      error_x: {type: "data", symmetric: false, array: F.map(r => r.ls - r.coef), arrayminus: F.map(r => r.coef - r.li), color: col[m], thickness: 2},
+      text: F.map(r => r["Ecuación"]), hovertemplate: "%{text}<br>" + m + ": %{x:.3f}<extra></extra>"};
+  });
+  Plotly.react("g_metodos", tr, {...LAY(), yaxis: {autorange: "reversed", tickvals: ecs.map((_, i) => i), ticktext: ecs, automargin: true, gridcolor: "#fff", zeroline: false},
+    xaxis: {title: "Elasticidad al ln del precio real (t−1)", zeroline: true, zerolinecolor: "#777", gridcolor: "#eee"}, margin: {l: 10, r: 15, t: 20, b: 80}}, CFG);
+  const T = D.transmision;
+  document.getElementById("t_trans").innerHTML = "<tr><th>Producto</th><th>Ecuación</th><th>Orden</th><th>F límites</th><th>θ largo plazo (EE)</th><th>φ ajuste</th><th>Vida media (meses)</th></tr>" +
+    T.map(r => `<tr><td>${r.Producto}</td><td>${r["Ecuación"]}</td><td>${r.Orden}</td><td class="n">${fmt(r["F límites"], 1)}</td><td class="n">${fmt(r["θ largo plazo"], 3)} (${fmt(r["EE θ"], 3)})</td><td class="n">${fmt(r["φ ajuste"], 3)}</td><td class="n">${fmt(r["Vida media (meses)"], 2)}</td></tr>`).join("");
+}
+
+function fuentes(E) {
+  const clase = (e) => e.startsWith("versión nueva") ? "nuevo" : (e.startsWith("sin cambios") || e === "primera revisión") ? "ok" : "no";
+  document.getElementById("t_fuentes").innerHTML = `<tr><th>Fuente</th><th>Entidad</th><th>Estado</th><th>HTTP</th><th>Última modificación</th><th>Revisado</th></tr>` +
+    E.fuentes.map(f => `<tr><td><a href="${f.url}">${f.nombre}</a></td><td>${f.entidad}</td><td><span class="chip ${clase(f.estado)}">${f.estado}</span></td><td>${f.estado_http ?? "—"}</td><td>${f.ultima_modificacion ?? "—"}</td><td>${f.revisado}</td></tr>`).join("");
+}
+
+function descargas() {
+  const raiz = "https://github.com/santacruzdavid1201-web/cafe-papa-narino/raw/main/salidas/";
+  const L = [["datos/panel_municipal.csv", "Panel municipio-cultivo-año 2007–2025 (área, producción, rendimiento, precio, ingreso bruto)"],
+             ["datos/precios_mensuales.csv", "Precios mensuales de papa (Pasto, Ipiales) y café (FNC)"], ["datos/serie_departamental.csv", "Serie departamental por cultivo"],
+             ["datos/contexto_va.csv", "Ingreso bruto y VA agropecuario de Nariño"], ["resultados_clave.json", "Cifras citadas en el artículo"]];
+  document.getElementById("descargas_lista").innerHTML = L.map(([f, t]) => `<li><a href="${raiz + f}">${f}</a> · ${t}</li>`).join("");
+}
+iniciar();
+</script>
+</body>
+</html>

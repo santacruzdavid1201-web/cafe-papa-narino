@@ -1,0 +1,755 @@
+fecha,serie,producto,plaza,precio
+2013-01-01,Papa · Ipiales,Papa,Ipiales,354.0
+2013-02-01,Papa · Ipiales,Papa,Ipiales,311.5
+2013-03-01,Papa · Ipiales,Papa,Ipiales,277.5
+2013-04-01,Papa · Ipiales,Papa,Ipiales,284.5
+2013-05-01,Papa · Ipiales,Papa,Ipiales,344.5
+2013-06-01,Papa · Ipiales,Papa,Ipiales,342.0
+2013-07-01,Papa · Ipiales,Papa,Ipiales,436.5
+2013-08-01,Papa · Ipiales,Papa,Ipiales,391.0
+2013-09-01,Papa · Ipiales,Papa,Ipiales,348.0
+2013-10-01,Papa · Ipiales,Papa,Ipiales,323.0
+2013-11-01,Papa · Ipiales,Papa,Ipiales,339.5
+2013-12-01,Papa · Ipiales,Papa,Ipiales,379.5
+2014-01-01,Papa · Ipiales,Papa,Ipiales,387.0
+2014-02-01,Papa · Ipiales,Papa,Ipiales,340.5
+2014-03-01,Papa · Ipiales,Papa,Ipiales,455.0
+2014-04-01,Papa · Ipiales,Papa,Ipiales,666.0
+2014-05-01,Papa · Ipiales,Papa,Ipiales,759.0
+2014-06-01,Papa · Ipiales,Papa,Ipiales,730.5
+2014-07-01,Papa · Ipiales,Papa,Ipiales,730.5
+2014-08-01,Papa · Ipiales,Papa,Ipiales,612.5
+2014-09-01,Papa · Ipiales,Papa,Ipiales,605.0
+2014-10-01,Papa · Ipiales,Papa,Ipiales,662.0
+2014-11-01,Papa · Ipiales,Papa,Ipiales,704.0
+2014-12-01,Papa · Ipiales,Papa,Ipiales,749.0
+2015-01-01,Papa · Ipiales,Papa,Ipiales,819.5
+2015-02-01,Papa · Ipiales,Papa,Ipiales,855.5
+2015-03-01,Papa · Ipiales,Papa,Ipiales,801.5
+2015-04-01,Papa · Ipiales,Papa,Ipiales,680.75
+2015-05-01,Papa · Ipiales,Papa,Ipiales,597.75
+2015-06-01,Papa · Ipiales,Papa,Ipiales,507.0
+2015-07-01,Papa · Ipiales,Papa,Ipiales,346.0
+2015-08-01,Papa · Ipiales,Papa,Ipiales,312.25
+2015-09-01,Papa · Ipiales,Papa,Ipiales,355.5
+2015-10-01,Papa · Ipiales,Papa,Ipiales,528.5
+2015-11-01,Papa · Ipiales,Papa,Ipiales,558.5
+2015-12-01,Papa · Ipiales,Papa,Ipiales,798.75
+2016-01-01,Papa · Ipiales,Papa,Ipiales,918.5
+2016-02-01,Papa · Ipiales,Papa,Ipiales,971.5
+2016-03-01,Papa · Ipiales,Papa,Ipiales,1067.75
+2016-04-01,Papa · Ipiales,Papa,Ipiales,1066.0
+2016-05-01,Papa · Ipiales,Papa,Ipiales,1183.5
+2016-06-01,Papa · Ipiales,Papa,Ipiales,1055.0
+2016-07-01,Papa · Ipiales,Papa,Ipiales,768.75
+2016-08-01,Papa · Ipiales,Papa,Ipiales,517.5
+2016-09-01,Papa · Ipiales,Papa,Ipiales,416.25
+2016-10-01,Papa · Ipiales,Papa,Ipiales,412.5
+2016-11-01,Papa · Ipiales,Papa,Ipiales,424.75
+2016-12-01,Papa · Ipiales,Papa,Ipiales,436.25
+2017-01-01,Papa · Ipiales,Papa,Ipiales,414.25
+2017-02-01,Papa · Ipiales,Papa,Ipiales,388.75
+2017-03-01,Papa · Ipiales,Papa,Ipiales,447.5
+2017-04-01,Papa · Ipiales,Papa,Ipiales,444.5
+2017-05-01,Papa · Ipiales,Papa,Ipiales,422.75
+2017-06-01,Papa · Ipiales,Papa,Ipiales,408.25
+2017-07-01,Papa · Ipiales,Papa,Ipiales,408.75
+2017-08-01,Papa · Ipiales,Papa,Ipiales,401.25
+2017-09-01,Papa · Ipiales,Papa,Ipiales,471.5
+2017-10-01,Papa · Ipiales,Papa,Ipiales,747.75
+2017-11-01,Papa · Ipiales,Papa,Ipiales,919.0
+2017-12-01,Papa · Ipiales,Papa,Ipiales,960.25
+2018-01-01,Papa · Ipiales,Papa,Ipiales,875.25
+2018-02-01,Papa · Ipiales,Papa,Ipiales,797.0
+2018-03-01,Papa · Ipiales,Papa,Ipiales,759.25
+2018-04-01,Papa · Ipiales,Papa,Ipiales,622.75
+2018-05-01,Papa · Ipiales,Papa,Ipiales,502.75
+2018-06-01,Papa · Ipiales,Papa,Ipiales,393.0
+2018-07-01,Papa · Ipiales,Papa,Ipiales,410.0
+2018-08-01,Papa · Ipiales,Papa,Ipiales,453.25
+2018-09-01,Papa · Ipiales,Papa,Ipiales,547.0
+2018-10-01,Papa · Ipiales,Papa,Ipiales,742.5
+2018-11-01,Papa · Ipiales,Papa,Ipiales,821.25
+2018-12-01,Papa · Ipiales,Papa,Ipiales,782.75
+2019-01-01,Papa · Ipiales,Papa,Ipiales,764.75
+2019-02-01,Papa · Ipiales,Papa,Ipiales,639.25
+2019-03-01,Papa · Ipiales,Papa,Ipiales,654.25
+2019-04-01,Papa · Ipiales,Papa,Ipiales,652.25
+2019-05-01,Papa · Ipiales,Papa,Ipiales,732.0
+2019-06-01,Papa · Ipiales,Papa,Ipiales,910.75
+2019-07-01,Papa · Ipiales,Papa,Ipiales,788.5
+2019-08-01,Papa · Ipiales,Papa,Ipiales,879.25
+2019-09-01,Papa · Ipiales,Papa,Ipiales,866.5
+2019-10-01,Papa · Ipiales,Papa,Ipiales,930.25
+2019-11-01,Papa · Ipiales,Papa,Ipiales,797.25
+2019-12-01,Papa · Ipiales,Papa,Ipiales,524.25
+2020-01-01,Papa · Ipiales,Papa,Ipiales,422.25
+2020-02-01,Papa · Ipiales,Papa,Ipiales,418.5
+2020-03-01,Papa · Ipiales,Papa,Ipiales,536.75
+2020-04-01,Papa · Ipiales,Papa,Ipiales,425.0
+2020-05-01,Papa · Ipiales,Papa,Ipiales,673.0
+2020-06-01,Papa · Ipiales,Papa,Ipiales,696.75
+2020-07-01,Papa · Ipiales,Papa,Ipiales,584.75
+2020-08-01,Papa · Ipiales,Papa,Ipiales,471.75
+2020-09-01,Papa · Ipiales,Papa,Ipiales,408.25
+2020-10-01,Papa · Ipiales,Papa,Ipiales,367.5
+2020-11-01,Papa · Ipiales,Papa,Ipiales,370.5
+2020-12-01,Papa · Ipiales,Papa,Ipiales,367.5
+2021-01-01,Papa · Ipiales,Papa,Ipiales,433.5
+2021-02-01,Papa · Ipiales,Papa,Ipiales,626.5
+2021-03-01,Papa · Ipiales,Papa,Ipiales,996.0
+2021-04-01,Papa · Ipiales,Papa,Ipiales,1035.5
+2021-05-01,Papa · Ipiales,Papa,Ipiales,807.75
+2021-06-01,Papa · Ipiales,Papa,Ipiales,705.0
+2021-07-01,Papa · Ipiales,Papa,Ipiales,789.3333333333334
+2021-08-01,Papa · Ipiales,Papa,Ipiales,666.0
+2021-09-01,Papa · Ipiales,Papa,Ipiales,793.0
+2021-10-01,Papa · Ipiales,Papa,Ipiales,872.6666666666666
+2021-11-01,Papa · Ipiales,Papa,Ipiales,1110.0
+2021-12-01,Papa · Ipiales,Papa,Ipiales,1821.6666666666667
+2022-01-01,Papa · Ipiales,Papa,Ipiales,2270.6666666666665
+2022-02-01,Papa · Ipiales,Papa,Ipiales,2564.3333333333335
+2022-03-01,Papa · Ipiales,Papa,Ipiales,2561.6666666666665
+2022-04-01,Papa · Ipiales,Papa,Ipiales,2335.6666666666665
+2022-05-01,Papa · Ipiales,Papa,Ipiales,1209.6666666666667
+2022-06-01,Papa · Ipiales,Papa,Ipiales,945.3333333333334
+2022-07-01,Papa · Ipiales,Papa,Ipiales,833.0
+2022-08-01,Papa · Ipiales,Papa,Ipiales,644.3333333333334
+2022-09-01,Papa · Ipiales,Papa,Ipiales,833.6666666666666
+2022-10-01,Papa · Ipiales,Papa,Ipiales,1318.3333333333333
+2022-11-01,Papa · Ipiales,Papa,Ipiales,1843.0
+2022-12-01,Papa · Ipiales,Papa,Ipiales,2262.6666666666665
+2023-01-01,Papa · Ipiales,Papa,Ipiales,1922.6666666666667
+2023-02-01,Papa · Ipiales,Papa,Ipiales,1564.0
+2023-03-01,Papa · Ipiales,Papa,Ipiales,1250.3333333333333
+2023-04-01,Papa · Ipiales,Papa,Ipiales,1073.3333333333333
+2023-05-01,Papa · Ipiales,Papa,Ipiales,917.3333333333334
+2023-06-01,Papa · Ipiales,Papa,Ipiales,726.0
+2023-07-01,Papa · Ipiales,Papa,Ipiales,739.3333333333334
+2023-08-01,Papa · Ipiales,Papa,Ipiales,982.3333333333334
+2023-09-01,Papa · Ipiales,Papa,Ipiales,1181.0
+2023-10-01,Papa · Ipiales,Papa,Ipiales,1800.0
+2023-11-01,Papa · Ipiales,Papa,Ipiales,1723.0
+2023-12-01,Papa · Ipiales,Papa,Ipiales,1536.6666666666667
+2024-01-01,Papa · Ipiales,Papa,Ipiales,1303.0
+2024-02-01,Papa · Ipiales,Papa,Ipiales,1081.0
+2024-03-01,Papa · Ipiales,Papa,Ipiales,1218.0
+2024-04-01,Papa · Ipiales,Papa,Ipiales,1413.3333333333333
+2024-05-01,Papa · Ipiales,Papa,Ipiales,1908.0
+2024-06-01,Papa · Ipiales,Papa,Ipiales,2252.0
+2024-07-01,Papa · Ipiales,Papa,Ipiales,2473.6666666666665
+2024-08-01,Papa · Ipiales,Papa,Ipiales,2014.0
+2024-09-01,Papa · Ipiales,Papa,Ipiales,1597.3333333333333
+2024-10-01,Papa · Ipiales,Papa,Ipiales,1498.6666666666667
+2024-11-01,Papa · Ipiales,Papa,Ipiales,1440.6666666666667
+2024-12-01,Papa · Ipiales,Papa,Ipiales,1448.3333333333333
+2013-01-01,Papa criolla · Ipiales,Papa criolla,Ipiales,379.0
+2013-02-01,Papa criolla · Ipiales,Papa criolla,Ipiales,328.0
+2013-03-01,Papa criolla · Ipiales,Papa criolla,Ipiales,280.0
+2013-04-01,Papa criolla · Ipiales,Papa criolla,Ipiales,358.0
+2013-05-01,Papa criolla · Ipiales,Papa criolla,Ipiales,593.0
+2013-06-01,Papa criolla · Ipiales,Papa criolla,Ipiales,725.0
+2013-07-01,Papa criolla · Ipiales,Papa criolla,Ipiales,730.0
+2013-08-01,Papa criolla · Ipiales,Papa criolla,Ipiales,597.0
+2013-09-01,Papa criolla · Ipiales,Papa criolla,Ipiales,414.0
+2013-10-01,Papa criolla · Ipiales,Papa criolla,Ipiales,411.0
+2013-11-01,Papa criolla · Ipiales,Papa criolla,Ipiales,653.0
+2013-12-01,Papa criolla · Ipiales,Papa criolla,Ipiales,710.0
+2014-01-01,Papa criolla · Ipiales,Papa criolla,Ipiales,583.0
+2014-02-01,Papa criolla · Ipiales,Papa criolla,Ipiales,512.0
+2014-03-01,Papa criolla · Ipiales,Papa criolla,Ipiales,647.0
+2014-04-01,Papa criolla · Ipiales,Papa criolla,Ipiales,805.0
+2014-05-01,Papa criolla · Ipiales,Papa criolla,Ipiales,784.0
+2014-06-01,Papa criolla · Ipiales,Papa criolla,Ipiales,800.0
+2014-07-01,Papa criolla · Ipiales,Papa criolla,Ipiales,458.0
+2014-08-01,Papa criolla · Ipiales,Papa criolla,Ipiales,456.0
+2014-09-01,Papa criolla · Ipiales,Papa criolla,Ipiales,477.0
+2014-10-01,Papa criolla · Ipiales,Papa criolla,Ipiales,611.0
+2014-11-01,Papa criolla · Ipiales,Papa criolla,Ipiales,648.0
+2014-12-01,Papa criolla · Ipiales,Papa criolla,Ipiales,526.0
+2015-01-01,Papa criolla · Ipiales,Papa criolla,Ipiales,356.0
+2015-02-01,Papa criolla · Ipiales,Papa criolla,Ipiales,280.0
+2015-03-01,Papa criolla · Ipiales,Papa criolla,Ipiales,333.0
+2015-04-01,Papa criolla · Ipiales,Papa criolla,Ipiales,449.0
+2015-05-01,Papa criolla · Ipiales,Papa criolla,Ipiales,592.5
+2015-06-01,Papa criolla · Ipiales,Papa criolla,Ipiales,408.5
+2015-07-01,Papa criolla · Ipiales,Papa criolla,Ipiales,304.5
+2015-08-01,Papa criolla · Ipiales,Papa criolla,Ipiales,377.0
+2015-09-01,Papa criolla · Ipiales,Papa criolla,Ipiales,686.6666666666666
+2015-10-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1054.5
+2015-11-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1535.0
+2015-12-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1959.0
+2016-01-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1494.0
+2016-02-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2530.5
+2016-03-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2571.0
+2016-04-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2189.5
+2016-05-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2260.0
+2016-06-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1423.5
+2016-07-01,Papa criolla · Ipiales,Papa criolla,Ipiales,512.5
+2016-08-01,Papa criolla · Ipiales,Papa criolla,Ipiales,479.5
+2016-09-01,Papa criolla · Ipiales,Papa criolla,Ipiales,645.5
+2016-10-01,Papa criolla · Ipiales,Papa criolla,Ipiales,632.0
+2016-11-01,Papa criolla · Ipiales,Papa criolla,Ipiales,787.5
+2016-12-01,Papa criolla · Ipiales,Papa criolla,Ipiales,616.5
+2017-01-01,Papa criolla · Ipiales,Papa criolla,Ipiales,472.5
+2017-02-01,Papa criolla · Ipiales,Papa criolla,Ipiales,477.5
+2017-03-01,Papa criolla · Ipiales,Papa criolla,Ipiales,660.0
+2017-04-01,Papa criolla · Ipiales,Papa criolla,Ipiales,915.5
+2017-05-01,Papa criolla · Ipiales,Papa criolla,Ipiales,931.0
+2017-06-01,Papa criolla · Ipiales,Papa criolla,Ipiales,917.0
+2017-07-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1014.5
+2017-08-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1395.0
+2017-09-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1360.5
+2017-10-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1185.5
+2017-11-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1091.0
+2017-12-01,Papa criolla · Ipiales,Papa criolla,Ipiales,714.5
+2018-01-01,Papa criolla · Ipiales,Papa criolla,Ipiales,525.5
+2018-02-01,Papa criolla · Ipiales,Papa criolla,Ipiales,613.5
+2018-03-01,Papa criolla · Ipiales,Papa criolla,Ipiales,651.5
+2018-04-01,Papa criolla · Ipiales,Papa criolla,Ipiales,742.5
+2018-05-01,Papa criolla · Ipiales,Papa criolla,Ipiales,690.5
+2018-06-01,Papa criolla · Ipiales,Papa criolla,Ipiales,582.5
+2018-07-01,Papa criolla · Ipiales,Papa criolla,Ipiales,480.5
+2018-08-01,Papa criolla · Ipiales,Papa criolla,Ipiales,437.0
+2018-09-01,Papa criolla · Ipiales,Papa criolla,Ipiales,546.5
+2018-10-01,Papa criolla · Ipiales,Papa criolla,Ipiales,653.5
+2018-11-01,Papa criolla · Ipiales,Papa criolla,Ipiales,724.0
+2018-12-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1011.0
+2019-01-01,Papa criolla · Ipiales,Papa criolla,Ipiales,865.5
+2019-02-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1265.0
+2019-03-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1875.0
+2019-04-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1452.5
+2019-05-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1648.0
+2019-06-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1618.5
+2019-07-01,Papa criolla · Ipiales,Papa criolla,Ipiales,893.0
+2019-08-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1116.0
+2019-09-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1901.5
+2019-10-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1832.0
+2019-11-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1401.5
+2019-12-01,Papa criolla · Ipiales,Papa criolla,Ipiales,752.0
+2020-01-01,Papa criolla · Ipiales,Papa criolla,Ipiales,522.5
+2020-02-01,Papa criolla · Ipiales,Papa criolla,Ipiales,495.5
+2020-03-01,Papa criolla · Ipiales,Papa criolla,Ipiales,645.5
+2020-04-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1075.0
+2020-05-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1363.0
+2020-06-01,Papa criolla · Ipiales,Papa criolla,Ipiales,555.5
+2020-07-01,Papa criolla · Ipiales,Papa criolla,Ipiales,462.0
+2020-08-01,Papa criolla · Ipiales,Papa criolla,Ipiales,512.5
+2020-09-01,Papa criolla · Ipiales,Papa criolla,Ipiales,548.5
+2020-10-01,Papa criolla · Ipiales,Papa criolla,Ipiales,617.0
+2020-11-01,Papa criolla · Ipiales,Papa criolla,Ipiales,759.5
+2020-12-01,Papa criolla · Ipiales,Papa criolla,Ipiales,847.5
+2021-01-01,Papa criolla · Ipiales,Papa criolla,Ipiales,987.0
+2021-02-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1099.5
+2021-03-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1257.5
+2021-04-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1321.5
+2021-05-01,Papa criolla · Ipiales,Papa criolla,Ipiales,818.5
+2021-06-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1282.5
+2021-07-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2013.5
+2021-08-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1735.5
+2021-09-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1705.0
+2021-10-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2053.5
+2021-11-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1626.0
+2021-12-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1318.0
+2022-01-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1268.0
+2022-02-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1638.5
+2022-03-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1796.0
+2022-04-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2232.5
+2022-05-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1855.5
+2022-06-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1279.5
+2022-07-01,Papa criolla · Ipiales,Papa criolla,Ipiales,943.0
+2022-08-01,Papa criolla · Ipiales,Papa criolla,Ipiales,816.0
+2022-09-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1139.5
+2022-10-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1612.0
+2022-11-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1669.0
+2022-12-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2064.5
+2023-01-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1348.5
+2023-02-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1831.0
+2023-03-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1985.5
+2023-04-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2557.5
+2023-05-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2618.5
+2023-06-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2058.0
+2023-07-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1893.5
+2023-08-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2392.5
+2023-09-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1941.5
+2023-10-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1922.5
+2023-11-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1990.5
+2023-12-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2230.5
+2024-01-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1261.0
+2024-02-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1199.5
+2024-03-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1288.5
+2024-04-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1871.0
+2024-05-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2577.0
+2024-06-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2781.0
+2024-07-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1796.0
+2024-08-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1773.0
+2024-09-01,Papa criolla · Ipiales,Papa criolla,Ipiales,1670.0
+2024-10-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2455.0
+2024-11-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2796.0
+2024-12-01,Papa criolla · Ipiales,Papa criolla,Ipiales,2140.5
+2013-01-01,Papa · Pasto,Papa,Pasto,421.0
+2013-02-01,Papa · Pasto,Papa,Pasto,358.5
+2013-03-01,Papa · Pasto,Papa,Pasto,307.5
+2013-04-01,Papa · Pasto,Papa,Pasto,318.0
+2013-05-01,Papa · Pasto,Papa,Pasto,409.0
+2013-06-01,Papa · Pasto,Papa,Pasto,392.5
+2013-07-01,Papa · Pasto,Papa,Pasto,481.0
+2013-08-01,Papa · Pasto,Papa,Pasto,578.0
+2013-09-01,Papa · Pasto,Papa,Pasto,441.5
+2013-10-01,Papa · Pasto,Papa,Pasto,377.0
+2013-11-01,Papa · Pasto,Papa,Pasto,382.0
+2013-12-01,Papa · Pasto,Papa,Pasto,408.0
+2014-01-01,Papa · Pasto,Papa,Pasto,405.0
+2014-02-01,Papa · Pasto,Papa,Pasto,382.5
+2014-03-01,Papa · Pasto,Papa,Pasto,506.0
+2014-04-01,Papa · Pasto,Papa,Pasto,684.0
+2014-05-01,Papa · Pasto,Papa,Pasto,810.5
+2014-06-01,Papa · Pasto,Papa,Pasto,786.0
+2014-07-01,Papa · Pasto,Papa,Pasto,783.5
+2014-08-01,Papa · Pasto,Papa,Pasto,672.0
+2014-09-01,Papa · Pasto,Papa,Pasto,675.0
+2014-10-01,Papa · Pasto,Papa,Pasto,714.0
+2014-11-01,Papa · Pasto,Papa,Pasto,755.5
+2014-12-01,Papa · Pasto,Papa,Pasto,804.5
+2015-01-01,Papa · Pasto,Papa,Pasto,892.5
+2015-02-01,Papa · Pasto,Papa,Pasto,906.0
+2015-03-01,Papa · Pasto,Papa,Pasto,898.0
+2015-04-01,Papa · Pasto,Papa,Pasto,777.0
+2015-05-01,Papa · Pasto,Papa,Pasto,671.5
+2015-06-01,Papa · Pasto,Papa,Pasto,554.0
+2015-07-01,Papa · Pasto,Papa,Pasto,407.5
+2015-08-01,Papa · Pasto,Papa,Pasto,350.0
+2015-09-01,Papa · Pasto,Papa,Pasto,405.0
+2015-10-01,Papa · Pasto,Papa,Pasto,579.5
+2015-11-01,Papa · Pasto,Papa,Pasto,635.5
+2015-12-01,Papa · Pasto,Papa,Pasto,858.0
+2016-01-01,Papa · Pasto,Papa,Pasto,970.5
+2016-02-01,Papa · Pasto,Papa,Pasto,975.5
+2016-03-01,Papa · Pasto,Papa,Pasto,1085.5
+2016-04-01,Papa · Pasto,Papa,Pasto,1073.0
+2016-05-01,Papa · Pasto,Papa,Pasto,1235.0
+2016-06-01,Papa · Pasto,Papa,Pasto,1188.0
+2016-07-01,Papa · Pasto,Papa,Pasto,1029.5
+2016-08-01,Papa · Pasto,Papa,Pasto,606.0
+2016-09-01,Papa · Pasto,Papa,Pasto,460.5
+2016-10-01,Papa · Pasto,Papa,Pasto,466.5
+2016-11-01,Papa · Pasto,Papa,Pasto,459.0
+2016-12-01,Papa · Pasto,Papa,Pasto,454.5
+2017-01-01,Papa · Pasto,Papa,Pasto,432.0
+2017-02-01,Papa · Pasto,Papa,Pasto,425.0
+2017-03-01,Papa · Pasto,Papa,Pasto,476.0
+2017-04-01,Papa · Pasto,Papa,Pasto,491.0
+2017-05-01,Papa · Pasto,Papa,Pasto,487.5
+2017-06-01,Papa · Pasto,Papa,Pasto,480.0
+2017-07-01,Papa · Pasto,Papa,Pasto,473.0
+2017-08-01,Papa · Pasto,Papa,Pasto,445.5
+2017-09-01,Papa · Pasto,Papa,Pasto,521.5
+2017-10-01,Papa · Pasto,Papa,Pasto,757.5
+2017-11-01,Papa · Pasto,Papa,Pasto,920.0
+2017-12-01,Papa · Pasto,Papa,Pasto,994.0
+2018-01-01,Papa · Pasto,Papa,Pasto,921.0
+2018-02-01,Papa · Pasto,Papa,Pasto,856.0
+2018-03-01,Papa · Pasto,Papa,Pasto,828.0
+2018-04-01,Papa · Pasto,Papa,Pasto,685.0
+2018-05-01,Papa · Pasto,Papa,Pasto,563.0
+2018-06-01,Papa · Pasto,Papa,Pasto,461.0
+2018-07-01,Papa · Pasto,Papa,Pasto,450.5
+2018-08-01,Papa · Pasto,Papa,Pasto,491.5
+2018-09-01,Papa · Pasto,Papa,Pasto,594.5
+2018-10-01,Papa · Pasto,Papa,Pasto,765.5
+2018-11-01,Papa · Pasto,Papa,Pasto,856.5
+2018-12-01,Papa · Pasto,Papa,Pasto,826.5
+2019-01-01,Papa · Pasto,Papa,Pasto,802.5
+2019-02-01,Papa · Pasto,Papa,Pasto,689.5
+2019-03-01,Papa · Pasto,Papa,Pasto,714.0
+2019-04-01,Papa · Pasto,Papa,Pasto,710.5
+2019-05-01,Papa · Pasto,Papa,Pasto,780.5
+2019-06-01,Papa · Pasto,Papa,Pasto,982.5
+2019-07-01,Papa · Pasto,Papa,Pasto,837.0
+2019-08-01,Papa · Pasto,Papa,Pasto,903.0
+2019-09-01,Papa · Pasto,Papa,Pasto,930.5
+2019-10-01,Papa · Pasto,Papa,Pasto,1012.5
+2019-11-01,Papa · Pasto,Papa,Pasto,870.5
+2019-12-01,Papa · Pasto,Papa,Pasto,586.5
+2020-01-01,Papa · Pasto,Papa,Pasto,476.5
+2020-02-01,Papa · Pasto,Papa,Pasto,460.5
+2020-03-01,Papa · Pasto,Papa,Pasto,574.5
+2020-04-01,Papa · Pasto,Papa,Pasto,519.5
+2020-05-01,Papa · Pasto,Papa,Pasto,676.5
+2020-06-01,Papa · Pasto,Papa,Pasto,774.5
+2020-07-01,Papa · Pasto,Papa,Pasto,643.5
+2020-08-01,Papa · Pasto,Papa,Pasto,544.0
+2020-09-01,Papa · Pasto,Papa,Pasto,466.0
+2020-10-01,Papa · Pasto,Papa,Pasto,405.0
+2020-11-01,Papa · Pasto,Papa,Pasto,392.5
+2020-12-01,Papa · Pasto,Papa,Pasto,405.0
+2021-01-01,Papa · Pasto,Papa,Pasto,491.5
+2021-02-01,Papa · Pasto,Papa,Pasto,671.5
+2021-03-01,Papa · Pasto,Papa,Pasto,986.0
+2021-04-01,Papa · Pasto,Papa,Pasto,1126.5
+2021-05-01,Papa · Pasto,Papa,Pasto,1042.5
+2021-06-01,Papa · Pasto,Papa,Pasto,781.0
+2021-07-01,Papa · Pasto,Papa,Pasto,847.5
+2021-08-01,Papa · Pasto,Papa,Pasto,730.5
+2021-09-01,Papa · Pasto,Papa,Pasto,821.5
+2021-10-01,Papa · Pasto,Papa,Pasto,954.5
+2021-11-01,Papa · Pasto,Papa,Pasto,1149.5
+2021-12-01,Papa · Pasto,Papa,Pasto,1830.0
+2022-01-01,Papa · Pasto,Papa,Pasto,2268.0
+2022-02-01,Papa · Pasto,Papa,Pasto,2670.0
+2022-03-01,Papa · Pasto,Papa,Pasto,2551.5
+2022-04-01,Papa · Pasto,Papa,Pasto,2393.5
+2022-05-01,Papa · Pasto,Papa,Pasto,1353.5
+2022-06-01,Papa · Pasto,Papa,Pasto,1000.5
+2022-07-01,Papa · Pasto,Papa,Pasto,852.5
+2022-08-01,Papa · Pasto,Papa,Pasto,705.0
+2022-09-01,Papa · Pasto,Papa,Pasto,863.0
+2022-10-01,Papa · Pasto,Papa,Pasto,1417.0
+2022-11-01,Papa · Pasto,Papa,Pasto,1955.5
+2022-12-01,Papa · Pasto,Papa,Pasto,2280.5
+2023-01-01,Papa · Pasto,Papa,Pasto,2048.0
+2023-02-01,Papa · Pasto,Papa,Pasto,1672.5
+2023-03-01,Papa · Pasto,Papa,Pasto,1296.5
+2023-04-01,Papa · Pasto,Papa,Pasto,1017.0
+2023-05-01,Papa · Pasto,Papa,Pasto,972.0
+2023-06-01,Papa · Pasto,Papa,Pasto,820.0
+2023-07-01,Papa · Pasto,Papa,Pasto,806.5
+2023-08-01,Papa · Pasto,Papa,Pasto,1060.5
+2023-09-01,Papa · Pasto,Papa,Pasto,1227.0
+2023-10-01,Papa · Pasto,Papa,Pasto,1889.5
+2023-11-01,Papa · Pasto,Papa,Pasto,1724.0
+2023-12-01,Papa · Pasto,Papa,Pasto,1574.0
+2024-01-01,Papa · Pasto,Papa,Pasto,1410.5
+2024-02-01,Papa · Pasto,Papa,Pasto,1122.5
+2024-03-01,Papa · Pasto,Papa,Pasto,1240.0
+2024-04-01,Papa · Pasto,Papa,Pasto,1414.0
+2024-05-01,Papa · Pasto,Papa,Pasto,2039.0
+2024-06-01,Papa · Pasto,Papa,Pasto,2367.0
+2024-07-01,Papa · Pasto,Papa,Pasto,2652.5
+2024-08-01,Papa · Pasto,Papa,Pasto,2070.5
+2024-09-01,Papa · Pasto,Papa,Pasto,1743.5
+2024-10-01,Papa · Pasto,Papa,Pasto,1575.0
+2024-11-01,Papa · Pasto,Papa,Pasto,1455.5
+2024-12-01,Papa · Pasto,Papa,Pasto,1496.5
+2013-01-01,Papa criolla · Pasto,Papa criolla,Pasto,349.0
+2013-02-01,Papa criolla · Pasto,Papa criolla,Pasto,257.0
+2013-03-01,Papa criolla · Pasto,Papa criolla,Pasto,232.0
+2013-04-01,Papa criolla · Pasto,Papa criolla,Pasto,274.0
+2013-05-01,Papa criolla · Pasto,Papa criolla,Pasto,487.0
+2013-06-01,Papa criolla · Pasto,Papa criolla,Pasto,636.0
+2013-07-01,Papa criolla · Pasto,Papa criolla,Pasto,745.0
+2013-08-01,Papa criolla · Pasto,Papa criolla,Pasto,827.0
+2013-09-01,Papa criolla · Pasto,Papa criolla,Pasto,447.0
+2013-10-01,Papa criolla · Pasto,Papa criolla,Pasto,426.0
+2013-11-01,Papa criolla · Pasto,Papa criolla,Pasto,576.0
+2013-12-01,Papa criolla · Pasto,Papa criolla,Pasto,669.0
+2014-01-01,Papa criolla · Pasto,Papa criolla,Pasto,640.0
+2014-02-01,Papa criolla · Pasto,Papa criolla,Pasto,546.0
+2014-03-01,Papa criolla · Pasto,Papa criolla,Pasto,639.0
+2014-04-01,Papa criolla · Pasto,Papa criolla,Pasto,764.0
+2014-05-01,Papa criolla · Pasto,Papa criolla,Pasto,785.0
+2014-06-01,Papa criolla · Pasto,Papa criolla,Pasto,796.0
+2014-07-01,Papa criolla · Pasto,Papa criolla,Pasto,582.0
+2014-08-01,Papa criolla · Pasto,Papa criolla,Pasto,543.0
+2014-09-01,Papa criolla · Pasto,Papa criolla,Pasto,577.0
+2014-10-01,Papa criolla · Pasto,Papa criolla,Pasto,661.0
+2014-11-01,Papa criolla · Pasto,Papa criolla,Pasto,666.0
+2014-12-01,Papa criolla · Pasto,Papa criolla,Pasto,536.0
+2015-01-01,Papa criolla · Pasto,Papa criolla,Pasto,419.0
+2015-02-01,Papa criolla · Pasto,Papa criolla,Pasto,355.0
+2015-03-01,Papa criolla · Pasto,Papa criolla,Pasto,470.0
+2015-04-01,Papa criolla · Pasto,Papa criolla,Pasto,504.0
+2015-05-01,Papa criolla · Pasto,Papa criolla,Pasto,694.0
+2015-06-01,Papa criolla · Pasto,Papa criolla,Pasto,457.0
+2015-07-01,Papa criolla · Pasto,Papa criolla,Pasto,363.0
+2015-08-01,Papa criolla · Pasto,Papa criolla,Pasto,384.0
+2015-09-01,Papa criolla · Pasto,Papa criolla,Pasto,628.0
+2015-10-01,Papa criolla · Pasto,Papa criolla,Pasto,970.0
+2015-11-01,Papa criolla · Pasto,Papa criolla,Pasto,1293.0
+2015-12-01,Papa criolla · Pasto,Papa criolla,Pasto,1708.0
+2016-01-01,Papa criolla · Pasto,Papa criolla,Pasto,1512.0
+2016-02-01,Papa criolla · Pasto,Papa criolla,Pasto,2117.0
+2016-03-01,Papa criolla · Pasto,Papa criolla,Pasto,2375.0
+2016-04-01,Papa criolla · Pasto,Papa criolla,Pasto,1953.0
+2016-05-01,Papa criolla · Pasto,Papa criolla,Pasto,2074.0
+2016-06-01,Papa criolla · Pasto,Papa criolla,Pasto,1520.0
+2016-07-01,Papa criolla · Pasto,Papa criolla,Pasto,680.0
+2016-08-01,Papa criolla · Pasto,Papa criolla,Pasto,458.0
+2016-09-01,Papa criolla · Pasto,Papa criolla,Pasto,530.0
+2016-10-01,Papa criolla · Pasto,Papa criolla,Pasto,528.0
+2016-11-01,Papa criolla · Pasto,Papa criolla,Pasto,623.0
+2016-12-01,Papa criolla · Pasto,Papa criolla,Pasto,544.0
+2017-01-01,Papa criolla · Pasto,Papa criolla,Pasto,497.0
+2017-02-01,Papa criolla · Pasto,Papa criolla,Pasto,425.0
+2017-03-01,Papa criolla · Pasto,Papa criolla,Pasto,531.0
+2017-04-01,Papa criolla · Pasto,Papa criolla,Pasto,757.0
+2017-05-01,Papa criolla · Pasto,Papa criolla,Pasto,802.0
+2017-06-01,Papa criolla · Pasto,Papa criolla,Pasto,843.0
+2017-07-01,Papa criolla · Pasto,Papa criolla,Pasto,945.0
+2017-08-01,Papa criolla · Pasto,Papa criolla,Pasto,1291.0
+2017-09-01,Papa criolla · Pasto,Papa criolla,Pasto,1175.0
+2017-10-01,Papa criolla · Pasto,Papa criolla,Pasto,1061.0
+2017-11-01,Papa criolla · Pasto,Papa criolla,Pasto,882.0
+2017-12-01,Papa criolla · Pasto,Papa criolla,Pasto,666.0
+2018-01-01,Papa criolla · Pasto,Papa criolla,Pasto,507.0
+2018-02-01,Papa criolla · Pasto,Papa criolla,Pasto,548.0
+2018-03-01,Papa criolla · Pasto,Papa criolla,Pasto,556.0
+2018-04-01,Papa criolla · Pasto,Papa criolla,Pasto,671.0
+2018-05-01,Papa criolla · Pasto,Papa criolla,Pasto,597.0
+2018-06-01,Papa criolla · Pasto,Papa criolla,Pasto,509.0
+2018-07-01,Papa criolla · Pasto,Papa criolla,Pasto,418.0
+2018-08-01,Papa criolla · Pasto,Papa criolla,Pasto,366.0
+2018-09-01,Papa criolla · Pasto,Papa criolla,Pasto,463.0
+2018-10-01,Papa criolla · Pasto,Papa criolla,Pasto,575.0
+2018-11-01,Papa criolla · Pasto,Papa criolla,Pasto,662.0
+2018-12-01,Papa criolla · Pasto,Papa criolla,Pasto,888.0
+2019-01-01,Papa criolla · Pasto,Papa criolla,Pasto,825.0
+2019-02-01,Papa criolla · Pasto,Papa criolla,Pasto,1058.0
+2019-03-01,Papa criolla · Pasto,Papa criolla,Pasto,1522.0
+2019-04-01,Papa criolla · Pasto,Papa criolla,Pasto,1356.0
+2019-05-01,Papa criolla · Pasto,Papa criolla,Pasto,1462.0
+2019-06-01,Papa criolla · Pasto,Papa criolla,Pasto,1457.0
+2019-07-01,Papa criolla · Pasto,Papa criolla,Pasto,783.0
+2019-08-01,Papa criolla · Pasto,Papa criolla,Pasto,783.0
+2019-09-01,Papa criolla · Pasto,Papa criolla,Pasto,1567.0
+2019-10-01,Papa criolla · Pasto,Papa criolla,Pasto,1557.0
+2019-11-01,Papa criolla · Pasto,Papa criolla,Pasto,1172.0
+2019-12-01,Papa criolla · Pasto,Papa criolla,Pasto,724.0
+2020-01-01,Papa criolla · Pasto,Papa criolla,Pasto,500.0
+2020-02-01,Papa criolla · Pasto,Papa criolla,Pasto,431.0
+2020-03-01,Papa criolla · Pasto,Papa criolla,Pasto,607.0
+2020-04-01,Papa criolla · Pasto,Papa criolla,Pasto,893.0
+2020-05-01,Papa criolla · Pasto,Papa criolla,Pasto,930.0
+2020-06-01,Papa criolla · Pasto,Papa criolla,Pasto,572.0
+2020-07-01,Papa criolla · Pasto,Papa criolla,Pasto,434.0
+2020-08-01,Papa criolla · Pasto,Papa criolla,Pasto,398.0
+2020-09-01,Papa criolla · Pasto,Papa criolla,Pasto,411.0
+2020-10-01,Papa criolla · Pasto,Papa criolla,Pasto,454.0
+2020-11-01,Papa criolla · Pasto,Papa criolla,Pasto,670.0
+2020-12-01,Papa criolla · Pasto,Papa criolla,Pasto,803.0
+2021-01-01,Papa criolla · Pasto,Papa criolla,Pasto,784.0
+2021-02-01,Papa criolla · Pasto,Papa criolla,Pasto,1000.0
+2021-03-01,Papa criolla · Pasto,Papa criolla,Pasto,1171.0
+2021-04-01,Papa criolla · Pasto,Papa criolla,Pasto,1302.0
+2021-05-01,Papa criolla · Pasto,Papa criolla,Pasto,1172.0
+2021-06-01,Papa criolla · Pasto,Papa criolla,Pasto,1283.0
+2021-07-01,Papa criolla · Pasto,Papa criolla,Pasto,1801.0
+2021-08-01,Papa criolla · Pasto,Papa criolla,Pasto,1558.0
+2021-09-01,Papa criolla · Pasto,Papa criolla,Pasto,1507.0
+2021-10-01,Papa criolla · Pasto,Papa criolla,Pasto,1852.0
+2021-11-01,Papa criolla · Pasto,Papa criolla,Pasto,1438.0
+2021-12-01,Papa criolla · Pasto,Papa criolla,Pasto,1260.0
+2022-01-01,Papa criolla · Pasto,Papa criolla,Pasto,1048.0
+2022-02-01,Papa criolla · Pasto,Papa criolla,Pasto,1506.0
+2022-03-01,Papa criolla · Pasto,Papa criolla,Pasto,1771.0
+2022-04-01,Papa criolla · Pasto,Papa criolla,Pasto,2203.0
+2022-05-01,Papa criolla · Pasto,Papa criolla,Pasto,1760.0
+2022-06-01,Papa criolla · Pasto,Papa criolla,Pasto,1142.0
+2022-07-01,Papa criolla · Pasto,Papa criolla,Pasto,835.0
+2022-08-01,Papa criolla · Pasto,Papa criolla,Pasto,632.0
+2022-09-01,Papa criolla · Pasto,Papa criolla,Pasto,789.0
+2022-10-01,Papa criolla · Pasto,Papa criolla,Pasto,1258.0
+2022-11-01,Papa criolla · Pasto,Papa criolla,Pasto,1315.0
+2022-12-01,Papa criolla · Pasto,Papa criolla,Pasto,1746.0
+2023-01-01,Papa criolla · Pasto,Papa criolla,Pasto,1267.0
+2023-02-01,Papa criolla · Pasto,Papa criolla,Pasto,1441.0
+2023-03-01,Papa criolla · Pasto,Papa criolla,Pasto,1727.0
+2023-04-01,Papa criolla · Pasto,Papa criolla,Pasto,2066.0
+2023-05-01,Papa criolla · Pasto,Papa criolla,Pasto,2365.0
+2023-06-01,Papa criolla · Pasto,Papa criolla,Pasto,2017.0
+2023-07-01,Papa criolla · Pasto,Papa criolla,Pasto,1844.0
+2023-08-01,Papa criolla · Pasto,Papa criolla,Pasto,1965.0
+2023-09-01,Papa criolla · Pasto,Papa criolla,Pasto,1656.0
+2023-10-01,Papa criolla · Pasto,Papa criolla,Pasto,1643.0
+2023-11-01,Papa criolla · Pasto,Papa criolla,Pasto,1839.0
+2023-12-01,Papa criolla · Pasto,Papa criolla,Pasto,1807.0
+2024-01-01,Papa criolla · Pasto,Papa criolla,Pasto,1429.0
+2024-02-01,Papa criolla · Pasto,Papa criolla,Pasto,985.0
+2024-03-01,Papa criolla · Pasto,Papa criolla,Pasto,950.0
+2024-04-01,Papa criolla · Pasto,Papa criolla,Pasto,1423.0
+2024-05-01,Papa criolla · Pasto,Papa criolla,Pasto,1970.0
+2024-06-01,Papa criolla · Pasto,Papa criolla,Pasto,2582.0
+2024-07-01,Papa criolla · Pasto,Papa criolla,Pasto,1923.0
+2024-08-01,Papa criolla · Pasto,Papa criolla,Pasto,1607.0
+2024-09-01,Papa criolla · Pasto,Papa criolla,Pasto,1492.0
+2024-10-01,Papa criolla · Pasto,Papa criolla,Pasto,2132.0
+2024-11-01,Papa criolla · Pasto,Papa criolla,Pasto,2644.0
+2024-12-01,Papa criolla · Pasto,Papa criolla,Pasto,2098.0
+2012-01-01,Café · precio interno FNC,Café,Nacional,6998.903225806452
+2012-02-01,Café · precio interno FNC,Café,Nacional,6609.758620689655
+2012-03-01,Café · precio interno FNC,Café,Nacional,5820.516129032258
+2012-04-01,Café · precio interno FNC,Café,Nacional,5624.266666666667
+2012-05-01,Café · precio interno FNC,Café,Nacional,5362.677419354838
+2012-06-01,Café · precio interno FNC,Café,Nacional,4740.033333333333
+2012-07-01,Café · precio interno FNC,Café,Nacional,5184.774193548387
+2012-08-01,Café · precio interno FNC,Café,Nacional,4892.967741935484
+2012-09-01,Café · precio interno FNC,Café,Nacional,4987.4
+2012-10-01,Café · precio interno FNC,Café,Nacional,4715.709677419355
+2012-11-01,Café · precio interno FNC,Café,Nacional,4309.466666666667
+2012-12-01,Café · precio interno FNC,Café,Nacional,4170.096774193548
+2013-01-01,Café · precio interno FNC,Café,Nacional,4223.8387096774195
+2013-02-01,Café · precio interno FNC,Café,Nacional,4035.25
+2013-03-01,Café · precio interno FNC,Café,Nacional,4100.1612903225805
+2013-04-01,Café · precio interno FNC,Café,Nacional,4124.433333333333
+2013-05-01,Café · precio interno FNC,Café,Nacional,4088.0
+2013-06-01,Café · precio interno FNC,Café,Nacional,3811.6
+2013-07-01,Café · precio interno FNC,Café,Nacional,3737.677419354839
+2013-08-01,Café · precio interno FNC,Café,Nacional,3617.064516129032
+2013-09-01,Café · precio interno FNC,Café,Nacional,3484.5
+2013-10-01,Café · precio interno FNC,Café,Nacional,3257.6451612903224
+2013-11-01,Café · precio interno FNC,Café,Nacional,3078.5
+2013-12-01,Café · precio interno FNC,Café,Nacional,3213.1935483870966
+2014-01-01,Café · precio interno FNC,Café,Nacional,3437.2903225806454
+2014-02-01,Café · precio interno FNC,Café,Nacional,4818.5
+2014-03-01,Café · precio interno FNC,Café,Nacional,6069.967741935484
+2014-04-01,Café · precio interno FNC,Café,Nacional,6374.7
+2014-05-01,Café · precio interno FNC,Café,Nacional,5951.1935483870975
+2014-06-01,Café · precio interno FNC,Café,Nacional,5319.333333333333
+2014-07-01,Café · precio interno FNC,Café,Nacional,5157.1935483870975
+2014-08-01,Café · precio interno FNC,Café,Nacional,5724.967741935484
+2014-09-01,Café · precio interno FNC,Café,Nacional,5725.666666666667
+2014-10-01,Café · precio interno FNC,Café,Nacional,6447.451612903226
+2014-11-01,Café · precio interno FNC,Café,Nacional,6172.633333333333
+2014-12-01,Café · precio interno FNC,Café,Nacional,6253.967741935484
+2015-01-01,Café · precio interno FNC,Café,Nacional,6148.387096774193
+2015-02-01,Café · precio interno FNC,Café,Nacional,5799.857142857143
+2015-03-01,Café · precio interno FNC,Café,Nacional,5479.387096774193
+2015-04-01,Café · precio interno FNC,Café,Nacional,5498.966666666667
+2015-05-01,Café · precio interno FNC,Café,Nacional,5050.548387096774
+2015-06-01,Café · precio interno FNC,Café,Nacional,5375.2
+2015-07-01,Café · precio interno FNC,Café,Nacional,5430.225806451613
+2015-08-01,Café · precio interno FNC,Café,Nacional,6181.258064516129
+2015-09-01,Café · precio interno FNC,Café,Nacional,5749.366666666667
+2015-10-01,Café · precio interno FNC,Café,Nacional,5869.096774193548
+2015-11-01,Café · precio interno FNC,Café,Nacional,5880.266666666667
+2015-12-01,Café · precio interno FNC,Café,Nacional,6314.064516129033
+2016-01-01,Café · precio interno FNC,Café,Nacional,6300.225806451613
+2016-02-01,Café · precio interno FNC,Café,Nacional,6334.206896551725
+2016-03-01,Café · precio interno FNC,Café,Nacional,6393.032258064516
+2016-04-01,Café · precio interno FNC,Café,Nacional,6050.933333333333
+2016-05-01,Café · precio interno FNC,Café,Nacional,6042.580645161291
+2016-06-01,Café · precio interno FNC,Café,Nacional,6355.466666666667
+2016-07-01,Café · precio interno FNC,Café,Nacional,6684.129032258064
+2016-08-01,Café · precio interno FNC,Café,Nacional,6352.258064516129
+2016-09-01,Café · precio interno FNC,Café,Nacional,6886.933333333333
+2016-10-01,Café · precio interno FNC,Café,Nacional,7316.903225806452
+2016-11-01,Café · precio interno FNC,Café,Nacional,8060.266666666667
+2016-12-01,Café · precio interno FNC,Café,Nacional,6886.451612903226
+2017-01-01,Café · precio interno FNC,Café,Nacional,7065.8064516129025
+2017-02-01,Café · precio interno FNC,Café,Nacional,6874.285714285715
+2017-03-01,Café · precio interno FNC,Café,Nacional,6800.516129032258
+2017-04-01,Café · precio interno FNC,Café,Nacional,6439.2
+2017-05-01,Café · precio interno FNC,Café,Nacional,6420.129032258064
+2017-06-01,Café · precio interno FNC,Café,Nacional,6267.2
+2017-07-01,Café · precio interno FNC,Café,Nacional,6794.580645161291
+2017-08-01,Café · precio interno FNC,Café,Nacional,6815.225806451613
+2017-09-01,Café · precio interno FNC,Café,Nacional,6510.1
+2017-10-01,Café · precio interno FNC,Café,Nacional,6215.354838709678
+2017-11-01,Café · precio interno FNC,Café,Nacional,6276.033333333333
+2017-12-01,Café · precio interno FNC,Café,Nacional,6063.741935483871
+2018-01-01,Café · precio interno FNC,Café,Nacional,6111.225806451613
+2018-02-01,Café · precio interno FNC,Café,Nacional,5960.25
+2018-03-01,Café · precio interno FNC,Café,Nacional,5838.8387096774195
+2018-04-01,Café · precio interno FNC,Café,Nacional,5722.6
+2018-05-01,Café · precio interno FNC,Café,Nacional,6033.677419354838
+2018-06-01,Café · precio interno FNC,Café,Nacional,5971.2
+2018-07-01,Café · precio interno FNC,Café,Nacional,5742.709677419355
+2018-08-01,Café · precio interno FNC,Café,Nacional,5640.516129032258
+2018-09-01,Café · precio interno FNC,Café,Nacional,5495.466666666667
+2018-10-01,Café · precio interno FNC,Café,Nacional,6374.1935483870975
+2018-11-01,Café · precio interno FNC,Café,Nacional,6434.266666666667
+2018-12-01,Café · precio interno FNC,Café,Nacional,5821.1612903225805
+2019-01-01,Café · precio interno FNC,Café,Nacional,5818.1935483870975
+2019-02-01,Café · precio interno FNC,Café,Nacional,5664.714285714285
+2019-03-01,Café · precio interno FNC,Café,Nacional,5524.645161290322
+2019-04-01,Café · precio interno FNC,Café,Nacional,5444.533333333333
+2019-05-01,Café · precio interno FNC,Café,Nacional,5792.516129032258
+2019-06-01,Café · precio interno FNC,Café,Nacional,6239.333333333333
+2019-07-01,Café · precio interno FNC,Café,Nacional,6371.870967741936
+2019-08-01,Café · precio interno FNC,Café,Nacional,6391.483870967742
+2019-09-01,Café · precio interno FNC,Café,Nacional,6523.6
+2019-10-01,Café · precio interno FNC,Café,Nacional,6556.645161290322
+2019-11-01,Café · precio interno FNC,Café,Nacional,7276.8
+2019-12-01,Café · precio interno FNC,Café,Nacional,7993.032258064516
+2020-01-01,Café · precio interno FNC,Café,Nacional,7089.290322580645
+2020-02-01,Café · precio interno FNC,Café,Nacional,7272.827586206896
+2020-03-01,Café · precio interno FNC,Café,Nacional,9145.548387096775
+2020-04-01,Café · precio interno FNC,Café,Nacional,9404.533333333335
+2020-05-01,Café · precio interno FNC,Café,Nacional,8550.967741935485
+2020-06-01,Café · precio interno FNC,Café,Nacional,7702.4
+2020-07-01,Café · precio interno FNC,Café,Nacional,8011.612903225807
+2020-08-01,Café · precio interno FNC,Café,Nacional,9151.741935483871
+2020-09-01,Café · precio interno FNC,Café,Nacional,9137.866666666667
+2020-10-01,Café · precio interno FNC,Café,Nacional,8419.870967741934
+2020-11-01,Café · precio interno FNC,Café,Nacional,8357.6
+2020-12-01,Café · precio interno FNC,Café,Nacional,8381.41935483871
+2021-01-01,Café · precio interno FNC,Café,Nacional,8585.548387096775
+2021-02-01,Café · precio interno FNC,Café,Nacional,8908.285714285714
+2021-03-01,Café · precio interno FNC,Café,Nacional,9248.258064516129
+2021-04-01,Café · precio interno FNC,Café,Nacional,9659.466666666665
+2021-05-01,Café · precio interno FNC,Café,Nacional,11087.483870967742
+2021-06-01,Café · precio interno FNC,Café,Nacional,11366.4
+2021-07-01,Café · precio interno FNC,Café,Nacional,12501.935483870968
+2021-08-01,Café · precio interno FNC,Café,Nacional,13638.451612903225
+2021-09-01,Café · precio interno FNC,Café,Nacional,13697.104
+2021-10-01,Café · precio interno FNC,Café,Nacional,14279.483870967742
+2021-11-01,Café · precio interno FNC,Café,Nacional,15997.241379310346
+2021-12-01,Café · precio interno FNC,Café,Nacional,16931.870967741936
+2022-01-01,Café · precio interno FNC,Café,Nacional,17186.666666666668
+2022-02-01,Café · precio interno FNC,Café,Nacional,17706.666666666668
+2022-03-01,Café · precio interno FNC,Café,Nacional,15910.193548387097
+2022-04-01,Café · precio interno FNC,Café,Nacional,16219.58620689655
+2022-05-01,Café · precio interno FNC,Café,Nacional,16773.86666666664
+2022-06-01,Café · precio interno FNC,Café,Nacional,17377.86666666667
+2022-07-01,Café · precio interno FNC,Café,Nacional,18002.322580645163
+2022-08-01,Café · precio interno FNC,Café,Nacional,18524.384
+2022-09-01,Café · precio interno FNC,Café,Nacional,19191.733333333334
+2022-10-01,Café · precio interno FNC,Café,Nacional,18218.32
+2022-11-01,Café · precio interno FNC,Café,Nacional,15920.536
+2022-12-01,Café · precio interno FNC,Café,Nacional,15464.256
+2023-01-01,Café · precio interno FNC,Café,Nacional,14704.256
+2023-02-01,Café · precio interno FNC,Café,Nacional,16602.285714285714
+2023-03-01,Café · precio interno FNC,Café,Nacional,15945.032258064515
+2023-04-01,Café · precio interno FNC,Café,Nacional,15831.2
+2023-05-01,Café · precio interno FNC,Café,Nacional,15167.741935483871
+2023-06-01,Café · precio interno FNC,Café,Nacional,12623.2
+2023-07-01,Café · precio interno FNC,Café,Nacional,10550.193548387097
+2023-08-01,Café · precio interno FNC,Café,Nacional,10552.774193548386
+2023-09-01,Café · precio interno FNC,Café,Nacional,10287.736
+2023-10-01,Café · precio interno FNC,Café,Nacional,11032.52
+2023-11-01,Café · precio interno FNC,Café,Nacional,11251.58620689655
+2023-12-01,Café · precio interno FNC,Café,Nacional,11746.064516129032
+2024-01-01,Café · precio interno FNC,Café,Nacional,11384.0
+2024-02-01,Café · precio interno FNC,Café,Nacional,11654.896
+2024-03-01,Café · precio interno FNC,Café,Nacional,11521.032258064515
+2024-04-01,Café · precio interno FNC,Café,Nacional,13295.466666666665
+2024-05-01,Café · precio interno FNC,Café,Nacional,12769.032258064515
+2024-06-01,Café · precio interno FNC,Café,Nacional,14536.266666666666
+2024-07-01,Café · precio interno FNC,Café,Nacional,15011.096
+2024-08-01,Café · precio interno FNC,Café,Nacional,15546.584
+2024-09-01,Café · precio interno FNC,Café,Nacional,16961.86666666667
+2024-10-01,Café · precio interno FNC,Café,Nacional,17386.32
+2024-11-01,Café · precio interno FNC,Café,Nacional,19652.533333333333
+2024-12-01,Café · precio interno FNC,Café,Nacional,22118.967741935485
+2025-01-01,Café · precio interno FNC,Café,Nacional,22010.064516129038
+2025-02-01,Café · precio interno FNC,Café,Nacional,24948.571428571428
+2025-03-01,Café · precio interno FNC,Café,Nacional,24435.612903225807
+2025-04-01,Café · precio interno FNC,Café,Nacional,24355.466666666667
+2025-05-01,Café · precio interno FNC,Café,Nacional,24102.072
+2025-06-01,Café · precio interno FNC,Café,Nacional,21604.536
+2025-07-01,Café · precio interno FNC,Café,Nacional,18959.22580645161
+2025-08-01,Café · precio interno FNC,Café,Nacional,22064.258064516132
+2025-09-01,Café · precio interno FNC,Café,Nacional,23729.06666666667
+2025-10-01,Café · precio interno FNC,Café,Nacional,23639.483870967742
+2025-11-01,Café · precio interno FNC,Café,Nacional,23117.06666666664
+2025-12-01,Café · precio interno FNC,Café,Nacional,21961.806451612905
+2026-01-01,Café · precio interno FNC,Café,Nacional,21023.22580645161
+2026-02-01,Café · precio interno FNC,Café,Nacional,17393.144
+2026-03-01,Café · precio interno FNC,Café,Nacional,17817.032258064515
+2026-04-01,Café · precio interno FNC,Café,Nacional,17839.2
+2026-05-01,Café · precio interno FNC,Café,Nacional,17833.032258064515
+2026-06-01,Café · precio interno FNC,Café,Nacional,16694.933333333334
+2026-07-01,Café · precio interno FNC,Café,Nacional,17958.712
+2026-08-01,Café · precio interno FNC,Café,Nacional,18108.387096774193
+2026-09-01,Café · precio interno FNC,Café,Nacional,16552.8
+2026-10-01,Café · precio interno FNC,Café,Nacional,16960.258064516132
