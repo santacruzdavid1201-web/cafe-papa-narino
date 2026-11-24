@@ -1,0 +1,5 @@
+﻿Producto,Ecuación,Orden,n,F límites,p (cota I(1)),θ largo plazo,EE θ,p (θ = 1),φ ajuste,p φ,Vida media (meses)
+Papa,Pasto ← Ipiales,"ARDL(2,1)",142,48.492,0.0,0.941,0.008,0.0,-0.807,0.0,0.422
+Papa,Ipiales ← Pasto,"ARDL(1,2)",143,37.364,0.0,1.053,0.01,0.0,-0.815,0.0,0.41
+Papa criolla,Pasto ← Ipiales,"ARDL(1,4)",143,17.69,0.0,0.885,0.039,0.003,-0.383,0.0,1.436
+Papa criolla,Ipiales ← Pasto,"ARDL(4,1)",140,13.708,0.0,1.066,0.052,0.201,-0.371,0.0,1.496
