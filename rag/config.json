@@ -1,0 +1,305 @@
+{
+ "proyecto": "¿Cantidades o precios? Café, papa y valor agregado agropecuario en Nariño, 2012–2023",
+ "documentos": [
+  {
+   "tipo": "pdf",
+   "ruta": "articulo/Cafe_papa_Narino_ES.pdf",
+   "nombre": "Artículo (español)"
+  },
+  {
+   "tipo": "pdf",
+   "ruta": "articulo/Cafe_papa_Narino_EN.pdf",
+   "nombre": "Article (English)"
+  },
+  {
+   "tipo": "markdown",
+   "ruta": "README.md",
+   "nombre": "README del repositorio"
+  },
+  {
+   "tipo": "markdown",
+   "ruta": "datos/FUENTES.md",
+   "nombre": "Fuentes de datos"
+  },
+  {
+   "tipo": "notebook",
+   "ruta": "cafe_papa_narino.ipynb",
+   "nombre": "Notebook (texto metodológico)"
+  },
+  {
+   "tipo": "clave",
+   "ruta": "salidas/resultados_clave.json",
+   "nombre": "Resultados clave"
+  },
+  {
+   "tipo": "tabla",
+   "ruta": "salidas/tablas/Tabla_6_descomposicion.csv",
+   "nombre": "Tabla 6 del artículo",
+   "descripcion": "Descomposición de la varianza del ingreso bruto"
+  },
+  {
+   "tipo": "tabla",
+   "ruta": "salidas/tablas/Tabla_9_confrontacion.csv",
+   "nombre": "Figura 6 del artículo",
+   "descripcion": "Confrontación de métodos: elasticidad de la oferta al precio"
+  },
+  {
+   "tipo": "tabla",
+   "ruta": "salidas/tablas/Tabla_8c_transmision.csv",
+   "nombre": "Tabla 10 del artículo",
+   "descripcion": "Transmisión de precios de la papa entre Pasto e Ipiales"
+  },
+  {
+   "tipo": "tabla",
+   "ruta": "salidas/tablas/Tabla_5_descriptivos.csv",
+   "nombre": "Tabla 5 del artículo",
+   "descripcion": "Café y papa en Nariño, promedios 2012–2023"
+  }
+ ],
+ "glosario_clave": {
+  "n_mpios": "Número de municipios del panel",
+  "s_precio_cafe_dep": "Participación del precio en la varianza del ingreso del café, nivel departamental",
+  "s_precio_papa_dep": "Participación del precio en la varianza del ingreso de la papa, nivel departamental",
+  "s_precio_cafe_mun": "Participación del precio en la varianza del ingreso del café, nivel municipal",
+  "s_precio_papa_mun": "Participación del precio en la varianza del ingreso de la papa, nivel municipal",
+  "beta_cafe_area": "Elasticidad del área de café al precio real rezagado (panel EF)",
+  "p_cafe_area": "Valor p de la elasticidad del área de café",
+  "beta_papa_area": "Elasticidad del área de papa al precio real rezagado (panel EF)",
+  "p_papa_area": "Valor p de la elasticidad del área de papa",
+  "sp_cafe_area_rho": "Panel espacial SAR: dependencia espacial (rho) del área de café",
+  "sp_cafe_area_I": "I de Moran de los residuos del área de café",
+  "sp_cafe_area_total": "SAR: efecto total del precio sobre el área de café",
+  "tr_papa_pasto_theta": "Transmisión de largo plazo del precio de la papa de Ipiales a Pasto",
+  "tr_papa_pasto_vm": "Vida media (meses) de un desvío de precio de la papa entre Pasto e Ipiales",
+  "peso_medio": "Ingreso bruto de café y papa como porcentaje del VA agropecuario (promedio)",
+  "ctx_corr": "Correlación entre las variaciones del ingreso bruto y del VA agropecuario nominal"
+ },
+ "preguntas": [
+  {
+   "pregunta": "¿Cuál es la pregunta de investigación?",
+   "debe_contener": "cantidades producidas"
+  },
+  {
+   "pregunta": "¿Qué parte de la varianza del ingreso explica el precio a nivel departamental?",
+   "debe_contener": "departamental"
+  },
+  {
+   "pregunta": "¿Qué domina a escala municipal, cantidades o precios?",
+   "debe_contener": "municipal"
+  },
+  {
+   "pregunta": "¿Por qué la elasticidad del café es negativa?",
+   "debe_contener": "Roberts"
+  },
+  {
+   "pregunta": "¿Qué muestra el modelo SAR?",
+   "debe_contener": "SAR"
+  },
+  {
+   "pregunta": "¿Por qué SAR y SEM dan el mismo ajuste?",
+   "debe_contener": "común"
+  },
+  {
+   "pregunta": "Are the Pasto and Ipiales potato markets integrated?",
+   "debe_contener": "integrated"
+  },
+  {
+   "pregunta": "¿Cuál es la vida media del desvío de precios de la papa?",
+   "debe_contener": "vida media"
+  },
+  {
+   "pregunta": "¿Cómo se trató el cambio metodológico de la EVA en 2019?",
+   "debe_contener": "2019"
+  },
+  {
+   "pregunta": "¿Qué factor de conversión se usó para el café?",
+   "debe_contener": "1.25"
+  },
+  {
+   "pregunta": "¿Qué es el ciclo de la telaraña?",
+   "debe_contener": "Ezekiel"
+  },
+  {
+   "pregunta": "¿Qué encontraron Ceballos-Sierra y Dall'Erba?",
+   "debe_contener": "altitud"
+  },
+  {
+   "pregunta": "¿Cuánto pesa el ingreso de café y papa en el VA agropecuario?",
+   "debe_contener": "VA agropecuario"
+  },
+  {
+   "pregunta": "Which hypotheses does the study test?",
+   "debe_contener": "H5"
+  },
+  {
+   "pregunta": "¿Qué limitaciones tiene el estudio?",
+   "debe_contener": "limitaciones"
+  },
+  {
+   "pregunta": "¿Qué recomienda para la política agropecuaria?",
+   "debe_contener": "cobertura"
+  }
+ ],
+ "referencias": [
+  {
+   "cita": "Anselin (1988)",
+   "referencia": "Anselin, L. (1988). Spatial econometrics: Methods and models. Kluwer Academic Publishers. https://doi.org/10.1007/978-94-015-7799-1",
+   "resumen": ""
+  },
+  {
+   "cita": "Arias (2024)",
+   "referencia": "Arias, H. Y., y Antošová, G. (2024). Agricultural production conditions in Boyacá. Apuntes del CENES, 43(77), 243–269. https://doi.org/10.19053/uptc.01203053.v43.n77.2024.16304",
+   "resumen": "Enfoque: véase tabla; unidad y periodo: Municipios de Boyacá, 2014; método: SAR y SEM; resultado: Dependencia espacial en el error."
+  },
+  {
+   "cita": "Askari (1977)",
+   "referencia": "Askari, H., y Cummings, J. T. (1977). Estimating agricultural supply response with the Nerlove model: A survey. International Economic Review, 18(2), 257–292. https://doi.org/10.2307/2525749",
+   "resumen": ""
+  },
+  {
+   "cita": "Barrientos (2014)",
+   "referencia": "Barrientos, J. C., Rondón, C., y Melo, S. E. (2014). Comportamiento de precios de las variedades de papa Parda Pastusa y Diacol Capiro en Colombia (1995–2011). Revista Colombiana de Ciencias Hortícolas, 8(2), 272–286. https://doi.org/10.17584/rcch.2014v8i2.3220",
+   "resumen": "Enfoque: véase tabla; unidad y periodo: Papa, Colombia, 1995–2011; método: Análisis de series; resultado: Estacionalidad y ciclos irregulares."
+  },
+  {
+   "cita": "Campos (2019)",
+   "referencia": "Campos, H., y Ortiz, O. (Eds.). (2019). The potato crop: Its agricultural, nutritional and social contribution to humankind. Springer Nature. https://doi.org/10.1007/978-3-030-28683-5",
+   "resumen": ""
+  },
+  {
+   "cita": "Cancino (2021)",
+   "referencia": "Cancino, S., y Cancino Escalante, G. O. (2021). Aplicación del modelo de ajuste parcial nerloviano para estimar la elasticidad de la oferta de plátano en Colombia. Tendencias, 22(2), 57–75. https://ideas.repec.org/a/col/000520/019389.html",
+   "resumen": "Enfoque: véase tabla; unidad y periodo: Plátano, Colombia, 2000–2018; método: Ajuste parcial de Nerlove; resultado: Elasticidades de corto y largo plazo."
+  },
+  {
+   "cita": "Castillo Nuñez (2023)",
+   "referencia": "Castillo Nuñez, O. (2023). Incidencia de las lluvias y del precio en la oferta de leche cruda en los departamentos de Córdoba y Sucre, Colombia. Ensayos de Economía, 33(63), 62–84. https://doi.org/10.15446/ede.v33n63.101746",
+   "resumen": "Enfoque: véase tabla; unidad y periodo: Leche, Córdoba y Sucre; método: ARDL no lineal; resultado: Elasticidad de largo plazo de 0.96, simétrica."
+  },
+  {
+   "cita": "Ceballos-Sierra (2021)",
+   "referencia": "Ceballos-Sierra, F., y Dall'Erba, S. (2021). The effect of climate variability on Colombian coffee productivity: A dynamic panel model approach. Agricultural Systems, 190, 103126. https://doi.org/10.1016/j.agsy.2021.103126",
+   "resumen": "Enfoque: véase tabla; unidad y periodo: Municipios cafeteros, 2007–2013; método: Panel dinámico; resultado: Productividad según altitud y clima."
+  },
+  {
+   "cita": "Córdoba Segovia (2025)",
+   "referencia": "Córdoba Segovia, C. M., Alpala Tarapues, R. M., Coral Rojas, Y. E., y Cerón Chamorro, N. C. (2025). Cadenas de valor del café especial en Nariño: Impulso a la sostenibilidad y la competitividad internacional a través de la innovación. Ciencia Latina Revista Científica Multidisciplinar, 9(6), 7013–7044. https://doi.org/10.37811/cl_rcm.v9i6.21854",
+   "resumen": ""
+  },
+  {
+   "cita": "Deaton (1999)",
+   "referencia": "Deaton, A. (1999). Commodity prices and growth in Africa. Journal of Economic Perspectives, 13(3), 23–40. https://doi.org/10.1257/jep.13.3.23",
+   "resumen": ""
+  },
+  {
+   "cita": "Departamento Administrativo Nacional de Estadística (2025)",
+   "referencia": "Departamento Administrativo Nacional de Estadística [DANE]. (2025). Sistema de Información de Precios y Abastecimiento del Sector Agropecuario (SIPSA): series históricas de precios mayoristas 2013–2024 [Conjunto de datos]. https://www.dane.gov.co/index.php/estadisticas-por-tema/agropecuario/sistema-de-informacion-de-precios-sipsa/mayoristas-boletin-mensual-1",
+   "resumen": ""
+  },
+  {
+   "cita": "Departamento Administrativo Nacional de Estadística (2026)",
+   "referencia": "Departamento Administrativo Nacional de Estadística [DANE]. (2026). Producto interno bruto por departamento, base 2015, 2005–2025pr: valor agregado por actividad económica [Anexos estadísticos]. https://www.dane.gov.co/index.php/estadisticas-por-tema/cuentas-nacionales/cuentas-nacionales-departamentales",
+   "resumen": ""
+  },
+  {
+   "cita": "Driscoll (1998)",
+   "referencia": "Driscoll, J. C., y Kraay, A. C. (1998). Consistent covariance matrix estimation with spatially dependent panel data. The Review of Economics and Statistics, 80(4), 549–560. https://doi.org/10.1162/003465398557825",
+   "resumen": ""
+  },
+  {
+   "cita": "Elhorst (2003)",
+   "referencia": "Elhorst, J. P. (2003). Specification and estimation of spatial panel data models. International Regional Science Review, 26(3), 244–268. https://doi.org/10.1177/0160017603253791",
+   "resumen": "Enfoque: véase tabla; unidad y periodo: —; método: Paneles espaciales por MV; resultado: Estimadores con efectos fijos."
+  },
+  {
+   "cita": "Elhorst (2014)",
+   "referencia": "Elhorst, J. P. (2014). Spatial econometrics: From cross-sectional data to spatial panels. Springer. https://doi.org/10.1007/978-3-642-40340-8",
+   "resumen": ""
+  },
+  {
+   "cita": "Ezekiel (1938)",
+   "referencia": "Ezekiel, M. (1938). The cobweb theorem. The Quarterly Journal of Economics, 52(2), 255–280. https://doi.org/10.2307/1881734",
+   "resumen": ""
+  },
+  {
+   "cita": "FEDEPAPA (2023)",
+   "referencia": "FEDEPAPA, Observatorio FNFP, y Estudios Económicos FEDEPAPA-FNFP. (2023). Boletín regional: Nariño (Vol. 7). Federación Colombiana de Productores de Papa – Fondo Nacional de Fomento de la Papa.",
+   "resumen": ""
+  },
+  {
+   "cita": "Federación Nacional de Cafeteros de Colombia (2026)",
+   "referencia": "Federación Nacional de Cafeteros de Colombia [FNC]. (2026). Precios, área y producción de café [Conjunto de datos]. https://federaciondecafeteros.org/estadisticas-cafeteras/",
+   "resumen": ""
+  },
+  {
+   "cita": "Haile (2016)",
+   "referencia": "Haile, M. G., Kalkuhl, M., y von Braun, J. (2016). Worldwide acreage and yield response to international price change and volatility: A dynamic panel data analysis for wheat, rice, corn, and soybeans. American Journal of Agricultural Economics, 98(1), 172–190. https://doi.org/10.1093/ajae/aav013",
+   "resumen": "Enfoque: Paneles de oferta; unidad y periodo: Países, cuatro cultivos; método: GMM dinámico; resultado: Elasticidades 0.05–0.40; volatilidad (−)."
+  },
+  {
+   "cita": "Krivonos (2004)",
+   "referencia": "Krivonos, E. (2004). The impact of coffee market reforms on producer prices and price transmission (Policy Research Working Paper n.º 3358). World Bank. https://doi.org/10.1596/1813-9450-3358",
+   "resumen": "Enfoque: Transmisión de precios; unidad y periodo: Países cafeteros; método: Cointegración y MCE; resultado: Más transmisión tras la liberalización."
+  },
+  {
+   "cita": "Lee (2010)",
+   "referencia": "Lee, L.-F., y Yu, J. (2010). Estimation of spatial autoregressive panel data models with fixed effects. Journal of Econometrics, 154(2), 165–185. https://doi.org/10.1016/j.jeconom.2009.08.001",
+   "resumen": "Enfoque: véase tabla; unidad y periodo: —; método: Paneles espaciales por MV; resultado: Estimadores con efectos fijos."
+  },
+  {
+   "cita": "Marcillo (2012)",
+   "referencia": "Marcillo, G., y López, L. E. (2012). Estimación lineal de las funciones de oferta y demanda de la papa en la ciudad de Pasto, 1999–2010. Tendencias, 13(2), 84–102. https://ideas.repec.org/a/col/000520/018873.html",
+   "resumen": "Enfoque: véase tabla; unidad y periodo: Papa, Pasto, 1999–2010; método: MCO en series de tiempo; resultado: Funciones de oferta y demanda locales."
+  },
+  {
+   "cita": "Martínez Pachón (2021)",
+   "referencia": "Martínez Pachón, E., Insuasty Córdoba, S. C., Benavides Cardona, C. A., Gómez Gil, L. F., Uribe Mejía, P., Marcillo Paguay, C. A., Calvache Muñoz, D. A., Mejía España, D. F., Trejo Escobar, D., Arana Chico, H. C., Ramos Zambrano, H. S., López Peñafiel, H. V., Latorre Vásquez, L., Luna Mancilla, L. T., Rincón Manrique, L. F., Valencia Flórez, L. F., Pérez Cabrera, M. K., y Yandar Erazo, S. N. (2021). Caracterización del sistema productivo de papa en el departamento de Nariño 2015–2020: Conocimiento para la toma de decisiones. Editorial AGROSAVIA.",
+   "resumen": ""
+  },
+  {
+   "cita": "Mehta (2008)",
+   "referencia": "Mehta, A., y Chavas, J.-P. (2008). Responding to the coffee crisis: What can we learn from price dynamics? Journal of Development Economics, 85(1–2), 282–311. https://econpapers.repec.org/RePEc:eee:deveco:v:85:y:2008:i:1-2:p:282-311",
+   "resumen": "Enfoque: véase tabla; unidad y periodo: Café, finca a minorista; método: VAR semiestructural; resultado: Ciclo de precios ligado a la regulación."
+  },
+  {
+   "cita": "Meyer (2004)",
+   "referencia": "Meyer, J., y von Cramon-Taubadel, S. (2004). Asymmetric price transmission: A survey. Journal of Agricultural Economics, 55(3), 581–611. https://doi.org/10.1111/j.1477-9552.2004.tb00116.x",
+   "resumen": ""
+  },
+  {
+   "cita": "Ministerio de Agricultura y Desarrollo Rural (2025)",
+   "referencia": "Ministerio de Agricultura y Desarrollo Rural, y Unidad de Planificación Rural Agropecuaria [UPRA]. (2025). Evaluaciones Agropecuarias Municipales – EVA, 2007–2018 y 2019–2025 [Conjuntos de datos]. Portal de Datos Abiertos de Colombia. https://www.datos.gov.co/Agricultura-y-Desarrollo-Rural/Evaluaciones-Agropecuarias-Municipales-EVA-2019-20/uejq-wxrr",
+   "resumen": ""
+  },
+  {
+   "cita": "Nerlove (1958)",
+   "referencia": "Nerlove, M. (1958). Distributed lags and estimation of long-run supply and demand elasticities: Theoretical considerations. Journal of Farm Economics, 40(2), 301–311. https://doi.org/10.2307/1234921",
+   "resumen": "Enfoque: Oferta con series de tiempo; unidad y periodo: —; método: Expectativas adaptativas y ajuste parcial; resultado: Elasticidades de corto y largo plazo."
+  },
+  {
+   "cita": "Pesaran (2021)",
+   "referencia": "Pesaran, M. H. (2021). General diagnostic tests for cross-sectional dependence in panels. Empirical Economics, 60(1), 13–50. https://doi.org/10.1007/s00181-020-01875-7",
+   "resumen": ""
+  },
+  {
+   "cita": "Pesaran (2001)",
+   "referencia": "Pesaran, M. H., Shin, Y., y Smith, R. J. (2001). Bounds testing approaches to the analysis of level relationships. Journal of Applied Econometrics, 16(3), 289–326. https://doi.org/10.1002/jae.616",
+   "resumen": ""
+  },
+  {
+   "cita": "Quintero Peña (2011)",
+   "referencia": "Quintero Peña, J. W., y López Naranjo, H. A. (2011). Respuesta de la oferta de arroz en Colombia 1994–2008. Revista Mundo Económico y Empresarial. Universidad del Tolima. https://revistas.ut.edu.co/index.php/rmee/article/download/580/474/1233",
+   "resumen": "Enfoque: véase tabla; unidad y periodo: Arroz, Colombia, 1992–2009; método: Cointegración y MCE; resultado: Oferta inelástica al precio."
+  },
+  {
+   "cita": "Roberts (2013)",
+   "referencia": "Roberts, M. J., y Schlenker, W. (2013). Identifying supply and demand elasticities of agricultural commodities: Implications for the US ethanol mandate. American Economic Review, 103(6), 2265–2295. https://doi.org/10.1257/aer.103.6.2265",
+   "resumen": "Enfoque: véase tabla; unidad y periodo: Mundo, cuatro cultivos; método: VI con choques de rendimiento; resultado: Precio endógeno a la cosecha."
+  },
+  {
+   "cita": "Wood (2004)",
+   "referencia": "Wood, S., You, L., y Zhang, X. (2004). Spatial patterns of crop yields in Latin America and the Caribbean. Cuadernos de Economía, 41(124), 361–381. https://econpapers.repec.org/RePEc:ioe:cuadec:v:41:y:2004:i:124:p:361-381",
+   "resumen": "Enfoque: Econometría espacial; unidad y periodo: América Latina, subnacional; método: Convergencia espacial; resultado: Divergencia de rendimientos."
+  }
+ ]
+}
