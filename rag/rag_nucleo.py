@@ -207,10 +207,15 @@ class Generador:
         import torch
         mensajes = [{"role": "system", "content": SISTEMA},
                     {"role": "user", "content": f"Contexto:\n{contexto}\n\nPregunta: {pregunta}"}]
-        entrada = self.tok.apply_chat_template(mensajes, add_generation_prompt=True, return_tensors="pt").to(self.lm.device)
+        # Se arma el texto con la plantilla de chat y luego se tokeniza: así funciona con cualquier versión de
+        # transformers (las recientes devuelven un diccionario y no un tensor en apply_chat_template).
+        texto = self.tok.apply_chat_template(mensajes, add_generation_prompt=True, tokenize=False)
+        entrada = self.tok(texto, return_tensors="pt").to(self.lm.device)
         with torch.no_grad():
-            salida = self.lm.generate(entrada, max_new_tokens=380, do_sample=False, repetition_penalty=1.05)
-        return self.tok.decode(salida[0][entrada.shape[1]:], skip_special_tokens=True).strip()
+            salida = self.lm.generate(**entrada, max_new_tokens=380, do_sample=False, repetition_penalty=1.05,
+                                      pad_token_id=self.tok.eos_token_id)
+        n = entrada["input_ids"].shape[1]
+        return self.tok.decode(salida[0][n:], skip_special_tokens=True).strip()
 
     @staticmethod
     def _extractivo(pregunta, fragmentos, n=4):
