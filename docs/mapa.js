@@ -19,7 +19,7 @@ function dibujarMapa(div, geo, prop, valores, nombres, titulo, escala, decimales
   const trazas = [];
   for (const f of geo.features) {
     const id = f.properties[prop], v = valores[id];
-    const color = (v === null || v === undefined || isNaN(v)) ? "#e6e4de" : colorEscala((v - lo) / (hi - lo || 1), escala);
+    const color = (v === null || v === undefined || isNaN(v)) ? "#e9e1d3" : colorEscala((v - lo) / (hi - lo || 1), escala);
     const polis = f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates;
     const xs = [], ys = [];
     for (const poli of polis) { const anillo = poli[0]; for (const [x, y] of anillo) { xs.push(x); ys.push(y); } xs.push(null); ys.push(null); }
@@ -28,7 +28,7 @@ function dibujarMapa(div, geo, prop, valores, nombres, titulo, escala, decimales
   }
   trazas.push({x: [null], y: [null], mode: "markers", hoverinfo: "skip", showlegend: false,
     marker: {color: [lo, hi], cmin: lo, cmax: hi, colorscale: escala, showscale: true, colorbar: {thickness: 12, len: 0.7}}});
-  Plotly.react(div, trazas, {title: {text: titulo, font: {size: 15}}, margin: {l: 0, r: 0, t: 40, b: 0}, paper_bgcolor: "#fff", plot_bgcolor: "#fff",
+  Plotly.react(div, trazas, {title: {text: titulo, font: {size: 15}}, margin: {l: 0, r: 0, t: 40, b: 0}, paper_bgcolor: "#fffcf6", plot_bgcolor: "#fffcf6",
     xaxis: {visible: false}, yaxis: {visible: false, scaleanchor: "x", scaleratio: 1}, hovermode: "closest",
     font: {family: "Source Sans 3, Segoe UI, sans-serif", size: 13}}, {responsive: true, displaylogo: false});
 }
