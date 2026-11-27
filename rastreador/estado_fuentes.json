@@ -1,0 +1,109 @@
+{
+ "proyecto": "Café, papa y valor agregado agropecuario en Nariño",
+ "revisado": "2026-11-27 16:04 UTC",
+ "fuentes": [
+  {
+   "estado_http": null,
+   "error": "ProxyError",
+   "estado": "no accesible desde el servidor",
+   "id": "eva_2019_2025",
+   "nombre": "Evaluaciones Agropecuarias Municipales 2019–2025",
+   "entidad": "MinAgricultura – UPRA",
+   "tipo": "socrata",
+   "url": "https://www.datos.gov.co/Agricultura-y-Desarrollo-Rural/Evaluaciones-Agropecuarias-Municipales-EVA-2019-20/uejq-wxrr",
+   "revisado": "2026-11-27 16:04 UTC"
+  },
+  {
+   "estado_http": null,
+   "error": "ProxyError",
+   "estado": "no accesible desde el servidor",
+   "id": "eva_2007_2018",
+   "nombre": "Evaluaciones Agropecuarias Municipales 2007–2018",
+   "entidad": "MinAgricultura – UPRA",
+   "tipo": "socrata",
+   "url": "https://www.datos.gov.co/d/2pnw-mmge",
+   "revisado": "2026-11-27 16:04 UTC"
+  },
+  {
+   "estado_http": null,
+   "ultima_modificacion": null,
+   "etag": null,
+   "tamano": null,
+   "huella_remota": null,
+   "error": "ProxyError",
+   "estado": "no accesible desde el servidor",
+   "id": "sipsa_2024",
+   "nombre": "SIPSA: serie histórica de precios mayoristas 2024",
+   "entidad": "DANE",
+   "tipo": "archivo",
+   "url": "https://www.dane.gov.co/files/operaciones/SIPSA/anex-SIPSA-SerieHistoricaMayorista-2024.xlsx",
+   "revisado": "2026-11-27 16:04 UTC"
+  },
+  {
+   "estado_http": null,
+   "error": "ProxyError",
+   "estado": "no accesible desde el servidor",
+   "id": "sipsa_pagina",
+   "nombre": "Página SIPSA mayoristas (nuevos anexos)",
+   "entidad": "DANE",
+   "tipo": "pagina",
+   "url": "https://www.dane.gov.co/index.php/estadisticas-por-tema/agropecuario/sistema-de-informacion-de-precios-sipsa/mayoristas-boletin-mensual-1",
+   "revisado": "2026-11-27 16:04 UTC"
+  },
+  {
+   "estado_http": null,
+   "ultima_modificacion": null,
+   "etag": null,
+   "tamano": null,
+   "huella_remota": null,
+   "error": "ProxyError",
+   "estado": "no accesible desde el servidor",
+   "id": "fnc_precios",
+   "nombre": "FNC: precios, área y producción de café",
+   "entidad": "Federación Nacional de Cafeteros",
+   "tipo": "archivo",
+   "url": "https://federaciondecafeteros.org/wp-content/uploads/2026/09/Precios-area-y-produccion-de-cafe-Noviembre-2026.xlsx",
+   "revisado": "2026-11-27 16:04 UTC"
+  },
+  {
+   "estado_http": null,
+   "error": "ProxyError",
+   "estado": "no accesible desde el servidor",
+   "id": "fnc_pagina",
+   "nombre": "Página de estadísticas cafeteras (nuevos archivos)",
+   "entidad": "Federación Nacional de Cafeteros",
+   "tipo": "pagina",
+   "url": "https://federaciondecafeteros.org/wp/estadisticas-cafeteras/",
+   "revisado": "2026-11-27 16:04 UTC"
+  },
+  {
+   "estado_http": null,
+   "ultima_modificacion": null,
+   "etag": null,
+   "tamano": null,
+   "huella_remota": null,
+   "error": "ProxyError",
+   "estado": "no accesible desde el servidor",
+   "id": "pib_actividad",
+   "nombre": "PIB departamental por actividad",
+   "entidad": "DANE",
+   "tipo": "archivo",
+   "url": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-Activecono-2025pr.xlsx",
+   "revisado": "2026-11-27 16:04 UTC"
+  },
+  {
+   "estado_http": 200,
+   "ultima_modificacion": null,
+   "etag": "W/\"de3b89638a0a473d3c6dcc97faa41009d45a832d62a97795f8caa32e03c5cf6d\"",
+   "tamano": "279608",
+   "huella_remota": null,
+   "estado": "primera revisión",
+   "id": "mapa",
+   "nombre": "Límites municipales MGN 2018",
+   "entidad": "DANE vía GitHub",
+   "tipo": "archivo",
+   "url": "https://raw.githubusercontent.com/caticoa3/colombia_mapa/master/co_2018_MGN_MPIO_POLITICO.geojson",
+   "revisado": "2026-11-27 16:04 UTC"
+  }
+ ]
+}

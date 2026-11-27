@@ -49,5 +49,6 @@
  "Δln VA agropecuario nominal (%)": "Δln nominal agricultural VA (%)",
  "Δln ingreso bruto café + papa (nominal, %)": "Δln gross income coffee + potato (nominal, %)",
  "coeficiente del precio (t−1), IC 95 %": "price coefficient (t−1), 95% CI",
- "Coeficiente del ln del precio real (t−1) · IC 95 %": "Coefficient of ln real price (t−1) · 95% CI"
+ "Coeficiente del ln del precio real (t−1) · IC 95 %": "Coefficient of ln real price (t−1) · 95% CI",
+ "Coeficiente del precio real rezagado según el método": "Coefficient of the lagged real price by method"
 }

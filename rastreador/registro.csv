@@ -1,0 +1,9 @@
+revisado,id,tipo,estado_http,estado,ultima_modificacion,tamano,detalle
+2026-11-27 16:04 UTC,eva_2019_2025,socrata,,no accesible desde el servidor,,,ProxyError
+2026-11-27 16:04 UTC,eva_2007_2018,socrata,,no accesible desde el servidor,,,ProxyError
+2026-11-27 16:04 UTC,sipsa_2024,archivo,,no accesible desde el servidor,,,ProxyError
+2026-11-27 16:04 UTC,sipsa_pagina,pagina,,no accesible desde el servidor,,,ProxyError
+2026-11-27 16:04 UTC,fnc_precios,archivo,,no accesible desde el servidor,,,ProxyError
+2026-11-27 16:04 UTC,fnc_pagina,pagina,,no accesible desde el servidor,,,ProxyError
+2026-11-27 16:04 UTC,pib_actividad,archivo,,no accesible desde el servidor,,,ProxyError
+2026-11-27 16:04 UTC,mapa,archivo,200,primera revisión,,279608,

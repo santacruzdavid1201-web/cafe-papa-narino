@@ -88,7 +88,7 @@
    "debe_contener": "municipal"
   },
   {
-   "pregunta": "¿Por qué la elasticidad del café es negativa?",
+   "pregunta": "¿Por qué el coeficiente del precio en el café es negativo?",
    "debe_contener": "Roberts"
   },
   {
@@ -136,8 +136,20 @@
    "debe_contener": "limitaciones"
   },
   {
-   "pregunta": "¿Qué recomienda para la política agropecuaria?",
-   "debe_contener": "cobertura"
+   "pregunta": "¿Qué implicaciones de política tienen los resultados?",
+   "debe_contener": "evaluación"
+  },
+  {
+   "pregunta": "¿Se cumple la ley de un solo precio entre Pasto e Ipiales?",
+   "debe_contener": "ley de un solo precio"
+  },
+  {
+   "pregunta": "¿Qué evidencia documental respalda los choques de La Niña y fertilizantes?",
+   "debe_contener": "World Bank"
+  },
+  {
+   "pregunta": "¿Qué límites tiene la relación entre ingreso bruto y VA?",
+   "debe_contener": "consumo intermedio"
   }
  ],
  "referencias": [
@@ -168,7 +180,7 @@
   },
   {
    "cita": "Cancino (2021)",
-   "referencia": "Cancino, S., y Cancino Escalante, G. O. (2021). Aplicación del modelo de ajuste parcial nerloviano para estimar la elasticidad de la oferta de plátano en Colombia. Tendencias, 22(2), 57–75. https://ideas.repec.org/a/col/000520/019389.html",
+   "referencia": "Cancino, S., y Cancino Escalante, G. O. (2021). Aplicación del modelo de ajuste parcial nerloviano para estimar la elasticidad de la oferta de plátano en Colombia. Tendencias, 22(2), 57–75. https://doi.org/10.22267/rtend.212202.168",
    "resumen": "Enfoque: véase tabla; unidad y periodo: Plátano, Colombia, 2000–2018; método: Ajuste parcial de Nerlove; resultado: Elasticidades de corto y largo plazo."
   },
   {
@@ -222,8 +234,13 @@
    "resumen": ""
   },
   {
-   "cita": "FEDEPAPA (2023)",
-   "referencia": "FEDEPAPA, Observatorio FNFP, y Estudios Económicos FEDEPAPA-FNFP. (2023). Boletín regional: Nariño (Vol. 7). Federación Colombiana de Productores de Papa – Fondo Nacional de Fomento de la Papa.",
+   "cita": "Federación Colombiana de Productores de Papa (2024)",
+   "referencia": "Federación Colombiana de Productores de Papa [FEDEPAPA], y Fondo Nacional de Fomento de la Papa [FNFP]. (2024). Boletín regional: Nariño (Vol. 8). https://repositorio.fedepapa.com/server/api/core/bitstreams/c2766bb6-79b9-45bd-8268-350a181b939e/content",
+   "resumen": ""
+  },
+  {
+   "cita": "Federación Nacional de Cafeteros de Colombia (2022)",
+   "referencia": "Federación Nacional de Cafeteros de Colombia [FNC]. (2022). Informe del Gerente al 90 Congreso Nacional de Cafeteros. https://publicaciones.cenicafe.org/index.php/infgerente/article/download/708/886/690",
    "resumen": ""
   },
   {
@@ -288,13 +305,18 @@
   },
   {
    "cita": "Quintero Peña (2011)",
-   "referencia": "Quintero Peña, J. W., y López Naranjo, H. A. (2011). Respuesta de la oferta de arroz en Colombia 1994–2008. Revista Mundo Económico y Empresarial. Universidad del Tolima. https://revistas.ut.edu.co/index.php/rmee/article/download/580/474/1233",
+   "referencia": "Quintero Peña, J. W., y López Naranjo, H. A. (2011). Respuesta de la oferta de arroz en Colombia 1994–2008. Revista Mundo Económico y Empresarial, (10). Universidad del Tolima. https://revistas.ut.edu.co/index.php/rmee/article/download/580/474/1233",
    "resumen": "Enfoque: véase tabla; unidad y periodo: Arroz, Colombia, 1992–2009; método: Cointegración y MCE; resultado: Oferta inelástica al precio."
   },
   {
    "cita": "Roberts (2013)",
    "referencia": "Roberts, M. J., y Schlenker, W. (2013). Identifying supply and demand elasticities of agricultural commodities: Implications for the US ethanol mandate. American Economic Review, 103(6), 2265–2295. https://doi.org/10.1257/aer.103.6.2265",
    "resumen": "Enfoque: véase tabla; unidad y periodo: Mundo, cuatro cultivos; método: VI con choques de rendimiento; resultado: Precio endógeno a la cosecha."
+  },
+  {
+   "cita": "World Bank. (2022)",
+   "referencia": "World Bank. (2022). Commodity markets outlook, April 2022: The impact of the war in Ukraine on commodity markets. World Bank. http://hdl.handle.net/10986/37223",
+   "resumen": ""
   },
   {
    "cita": "Wood (2004)",
